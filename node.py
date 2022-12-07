@@ -4,7 +4,7 @@ import socketserver
 from threading import Thread
 import socket
 import time
-
+import numpy as np
 
 tableDelay = {
     0: {0: 0, 1: 2, 2: 3, 3: 2, 4: 3, 5: 4, 6: 4},
@@ -18,11 +18,12 @@ tableDelay = {
 
 
 class Node:
-    def __init__(self, id, n_nodes, broadcast_type):
+    def __init__(self, id, n_nodes, broadcast_type, start_time):
         self.port = 9000 + id
         self.id = id
         self.type = broadcast_type
         self.deliver = None
+        self.start_time = start_time
         self.alive = True
         if broadcast_type == "beb":
             self.deliver = self.beb_deliver
@@ -31,45 +32,58 @@ class Node:
         elif broadcast_type == "eager_probabilistic":
             self.deliver = self.eager_probabilistic_deliver
         self.correct = set(range(n_nodes))
-        self.message_from = [deque(maxlen = 4) for _ in range(n_nodes)]  # riceve al massimo 4 messaggi e sostituisce i piÃ¹ vecchi quando piena
+        self.message_from = [deque(maxlen = 100)]
         self.receive_thread = Thread(target = start_udp_server, daemon = True, args = [self])
         self.receive_thread.start()
-        self.crash_thread = Thread(target = self.crash, daemon = True)
-        self.crash_thread.start()
+        #self.crash_thread = Thread(target = self.crash, daemon = True)
+        #self.crash_thread.start()
         self.start_node()
 
 
     def broadcast(self, message):
-        correct_copy = set(self.correct)
-        for node in correct_copy:
+        print(f"[{time.time() - self.start_time}][BROADCAST] Process{message.strip()}")
+        for node in self.correct:
             udp_send(node, message)
-            print(f"Process {self.id} sends in broadcast {message}")
+        
 
 
     def beb_deliver(self, message):
-        print(f"Deliver message: {message}")
+        print(f"[BEB_DELIVERY] Process{self.id} delivers from process{message}")
 
 
     def lazy_rb_deliver(self, message):
-        sender = int(message.split('_', 2)[0])
-        content = message.split(':', 2)[1]
-        if content not in self.message_from[sender]:
-            print(f"Process {self.id} delivers message: {message}")  # Deliver to the application
-            self.message_from[sender].append(message)
-            if sender not in self.correct:
-                self.broadcast(message)
+        self.process_data()
 
+        sender = int(message.split('_', 2)[0])
+        #content = message.split(':', 2)[1]
+        #if content not in self.message_from[sender]:
+        if message not in self.message_from:
+            print(f"[{time.time() - self.start_time}][LRB_DELIVERY] Process{self.id} delivers from process{message}")  # Deliver to the application
+            #self.message_from[sender].append(message)
+            self.message_from.append(message)
+            #if sender not in self.correct:
+            #    self.broadcast(message)
+        else:
+            print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered from process{message}")
 
     def eager_probabilistic_deliver(self, message):
         pass
 
+    # Method to simulate the processing of a single message accordin to an exponential distribution
+    def process_data(self):
+        scale_beta = 5
+        
+        # It returns a sequence of values which can be assumed by a random variable following an exponential distribution.
+        # The first parameter is the scale beta (the inverse of the rate lambda) and the second the size of the array of values to return.
+        processing_time = np.random.exponential(scale_beta)
+        time.sleep(processing_time) 
 
+    """
     def receive_crash(self, id):
         self.correct.remove(id)
         print(f"Process {self.id} detects crash of: {id}")
         for message in self.message_from[id]:
             self.broadcast(message)
-
 
     def crash(self):
         if random.choice([True, False]):
@@ -78,16 +92,19 @@ class Node:
             time.sleep(t)
             self.alive = False
             self.broadcast(f"{self.id}_crash:crash\n")
-
-
+    """
+    
     def start_node(self):
-        inter_arrival_t = random.randint(5, 10)
-        while True:
+        scale_beta = 5
+        time_instants = np.random.exponential(scale_beta, 20)
+
+        for t in time_instants:
+            time.sleep(t)
             if not self.alive:
                 return
-            message = f"{self.id}_message:{random.randint(1, 50)}\n"
+            message = f"{self.id}_message:{random.randint(1, 100)}\n"
             self.broadcast(message)
-            time.sleep(inter_arrival_t)
+            
 
 
 def start_udp_server(node: Node):
