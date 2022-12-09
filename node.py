@@ -36,7 +36,7 @@ class Node:
         content = message_list[2]
         print(f"[{time.time() - self.start_time}][{tag.upper()}] Process {sender_id} broadcasts message {content}")
         for node in self.correct:
-            udp.udp_send(node, message)
+            udp.udp_send(9050 + self.id + node, message)
 
 
 
