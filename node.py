@@ -5,7 +5,6 @@ import time
 import udp_support as udp
 import numpy as np
 
-
 class Node:
     def __init__(self, id, n_nodes, broadcast_type, start_time):
         self.port = 9000 + id
@@ -28,7 +27,6 @@ class Node:
         #self.crash_thread.start()
         self.start_node()
 
-
     def broadcast(self, message):
         message_list = message.strip().split("_")
         sender_id = message_list[0]
@@ -39,14 +37,11 @@ class Node:
             udp.udp_send(9050 + self.id + node, message)
 
 
-
     def beb_deliver(self, message):
         print(f"[BEB_DELIVERY] Process{self.id} delivers from process{message}")
 
 
     def lazy_rb_deliver(self, message):
-        self.process_data()
-
         message_list = message.strip().split("_")
         sender_id = message_list[0]
         tag = message_list[1]
@@ -63,15 +58,6 @@ class Node:
 
     def eager_probabilistic_deliver(self, message):
         pass
-
-    # Method to simulate the processing of a single message accordin to an exponential distribution
-    def process_data(self):
-        scale_beta = 5
-        
-        # It returns a sequence of values which can be assumed by a random variable following an exponential distribution.
-        # The first parameter is the scale beta (the inverse of the rate lambda) and the second the size of the array of values to return.
-        processing_time = np.random.exponential(scale_beta)
-        time.sleep(processing_time) 
 
     """
     def receive_crash(self, id):

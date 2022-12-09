@@ -25,7 +25,6 @@ class Channel:
         self.deliver = self.receive
         self.messages_in = [deque(maxlen = 100)]
         
-
         self.receive_thread = Thread(target = udp.start_udp_server, daemon = True, args = [self])
         self.receive_thread.start()
 
@@ -46,10 +45,20 @@ class Channel:
     def receive(self, message):
         self.messages_in.append(message)
             
+        self.process_data()
+
         message_list = message.strip().split("_")
         sender_id = message_list[0]
         tag = message_list[1]
         content = message_list[2]
             
         self.forward(message)
+
+    # Method to simulate the processing of a single message accordin to an exponential distribution
+    def process_data(self):
+        scale_beta = 5
         
+        # It returns a sequence of values which can be assumed by a random variable following an exponential distribution.
+        # The first parameter is the scale beta (the inverse of the rate lambda) and the second the size of the array of values to return.
+        processing_time = np.random.exponential(scale_beta)
+        time.sleep(processing_time) 

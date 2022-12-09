@@ -1,6 +1,5 @@
 import socketserver
 import socket
-import time
 
 def start_udp_server(component):
     with socketserver.UDPServer(('localhost', component.port), UdpReceiver) as server:
@@ -9,7 +8,6 @@ def start_udp_server(component):
             server.serve_forever()
         except:
             server.shutdown()
-
 
 class UdpReceiver(socketserver.DatagramRequestHandler):
     def handle(self):
@@ -30,7 +28,6 @@ class UdpReceiver(socketserver.DatagramRequestHandler):
         else:
             self.server.component.deliver(raw_message)
 
-
 def udp_send(receiver_port, message):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
@@ -39,6 +36,5 @@ def udp_send(receiver_port, message):
     tag = message_list[1]
     content = message_list[2]
 
-    #time.sleep(tableDelay[sender_id][receiver_id])
     sock.sendto(message.encode('utf-8'), ('localhost', receiver_port))
     sock.close()
