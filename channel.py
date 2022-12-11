@@ -24,7 +24,6 @@ class Channel:
         self.bandwidth = bandwidth
         self.deliver = self.receive
         self.messages_in = [deque(maxlen = 100)]
-        
         self.receive_thread = Thread(target = udp.start_udp_server, daemon = True, args = [self])
         self.receive_thread.start()
 
@@ -41,7 +40,6 @@ class Channel:
             #time.sleep(tableDelay[sender_id][self.node1])
             udp.udp_send(self.port1, message)
 
-            
     def receive(self, message):
         self.messages_in.append(message)
             

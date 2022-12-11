@@ -16,13 +16,12 @@ class UdpReceiver(socketserver.DatagramRequestHandler):
         message_list = raw_message.split("_")
         sender_id = message_list[0]
         tag = message_list[1]
-        content = message_list[2]
 
         #if not self.server.node.alive:
         #    self.server.shutdown()
         #    return
 
-        if tag == "crash":                    # MODIFY IF CRASH HANDLED DIFFERENTLYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+        if tag == "crash":
             self.server.component.receive_crash(sender_id)
             return
         else:
@@ -30,11 +29,5 @@ class UdpReceiver(socketserver.DatagramRequestHandler):
 
 def udp_send(receiver_port, message):
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-    message_list = message.split("_")
-    sender_id = int(message_list[0])
-    tag = message_list[1]
-    content = message_list[2]
-
     sock.sendto(message.encode('utf-8'), ('localhost', receiver_port))
     sock.close()
