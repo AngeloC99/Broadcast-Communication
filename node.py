@@ -57,6 +57,7 @@ class Node:
         sender_id = message_list[0]
         tag = message_list[1]
         content = message_list[2]
+        time_sent = message_list[3]
 
         if message not in self.message_from:
             print(f"[{time.time() - self.start_time}][LRB_DELIVERY] Process {self.id} delivers message {content} from process {sender_id}")  # Deliver to the application
@@ -94,8 +95,8 @@ class Node:
             time.sleep(t)
             if not self.alive:
                 return
-            # Message format: senderID_tag_content\n
-            message = f"{self.id}_broadcast_{random.randint(1, 100)}\n"
+            # Message format: senderID_tag_content_time\n
+            message = f"{self.id}_broadcast_{random.randint(1, 100)}_{time.time()}\n"
             self.broadcast(message)
             
     """
