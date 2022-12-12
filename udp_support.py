@@ -17,13 +17,17 @@ class UdpReceiver(socketserver.DatagramRequestHandler):
         sender_id = message_list[0]
         tag = message_list[1]
 
-        #if not self.server.node.alive:
-        #    self.server.shutdown()
-        #    return
+        # To understand if the component is a Node or a Channel
+        if hasattr(self.server.component,"id"):
+            if not self.server.component.alive:
+                self.server.shutdown()
+                return
 
-        if tag == "crash":
-            self.server.component.receive_crash(sender_id)
-            return
+            if tag == "crash":
+                self.server.component.receive_crash(sender_id)
+                return
+            else:
+                self.server.component.deliver(raw_message)
         else:
             self.server.component.deliver(raw_message)
 

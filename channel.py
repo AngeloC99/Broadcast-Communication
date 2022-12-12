@@ -23,7 +23,7 @@ class Channel:
         self.port2 = 9000 + self.node2
         self.bandwidth = bandwidth
         self.deliver = self.receive
-        self.messages_in = deque(maxlen = 100)
+        self.messages_in = deque(maxlen = 200)
         udp.start_udp_server(self)
         
 
