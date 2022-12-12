@@ -22,7 +22,7 @@ class Node:
         elif broadcast_type == "eager_prob":
             self.deliver = self.eager_probabilistic_deliver
         self.correct = set(range(n_nodes))
-        self.message_from = [deque(maxlen = 100)]
+        self.message_from = deque(maxlen = 100)
         self.receive_thread = Thread(target = udp.start_udp_server, daemon = True, args = [self])
         self.receive_thread.start()
         #self.crash_thread = Thread(target = self.crash, daemon = True)
@@ -36,7 +36,18 @@ class Node:
         content = message_list[2]
         print(f"[{time.time() - self.start_time}][{tag.upper()}] Process {sender_id} broadcasts message {content}")
         for node in self.correct:
-            udp.udp_send(9050 + self.id + node, message)
+            list_nodes = list()
+            list_nodes.append(self.id)
+            list_nodes.append(node)
+            list_nodes.sort()
+            if self.id <= node:
+                channel_port = 9050 + int(f"{self.id}" + f"{node}")
+            else:
+                channel_port = 9050 + int(f"{node}" + f"{self.id}")
+            
+            udp.udp_send(channel_port, message)
+            
+            
 
     def beb_deliver(self, message):
         print(f"[BEB_DELIVERY] Process{self.id} delivers from process{message}")
@@ -50,8 +61,8 @@ class Node:
         if message not in self.message_from:
             print(f"[{time.time() - self.start_time}][LRB_DELIVERY] Process {self.id} delivers message {content} from process {sender_id}")  # Deliver to the application
             self.message_from.append(message)
-            if sender_id not in self.correct:
-                self.broadcast(message)
+            #if sender_id not in self.correct:
+            #    self.broadcast(message)
         else:
             print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered message {content} from process {sender_id}")
 

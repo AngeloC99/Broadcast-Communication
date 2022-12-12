@@ -16,23 +16,21 @@ tableDelay = {
 
 class Channel:
     def __init__(self, node1, node2, bandwidth):
-        self.port = 9050 + node1 + node2
-        self.node1 = node1
-        self.node2 = node2
-        self.port1 = 9000 + node1
-        self.port2 = 9000 + node2
+        self.port = 9050 + int(f"{node1}" + f"{node2}")
+        self.node1 = int(node1)
+        self.node2 = int(node2)
+        self.port1 = 9000 + self.node1
+        self.port2 = 9000 + self.node2
         self.bandwidth = bandwidth
         self.deliver = self.receive
-        self.messages_in = [deque(maxlen = 100)]
-        self.receive_thread = Thread(target = udp.start_udp_server, daemon = True, args = [self])
-        self.receive_thread.start()
+        self.messages_in = deque(maxlen = 100)
+        udp.start_udp_server(self)
+        
 
     def forward(self, message):
         message_list = message.strip().split("_")
-        sender_id = message_list[0]
-        tag = message_list[1]
-        content = message_list[2]
-            
+        sender_id = int(message_list[0])
+        
         if sender_id == self.node1:
             #time.sleep(tableDelay[sender_id][self.node2])
             udp.udp_send(self.port2, message)
@@ -41,15 +39,9 @@ class Channel:
             udp.udp_send(self.port1, message)
 
     def receive(self, message):
+        #print(f"channel {self.port} receives {message}")
         self.messages_in.append(message)
-            
         self.process_data()
-
-        message_list = message.strip().split("_")
-        sender_id = message_list[0]
-        tag = message_list[1]
-        content = message_list[2]
-            
         self.forward(message)
 
     # Method to simulate the processing of a single message accordin to an exponential distribution
@@ -59,4 +51,4 @@ class Channel:
         # It returns a sequence of values which can be assumed by a random variable following an exponential distribution.
         # The first parameter is the scale beta (the inverse of the rate lambda) and the second the size of the array of values to return.
         processing_time = np.random.exponential(scale_beta)
-        time.sleep(processing_time) 
+        time.sleep(processing_time)

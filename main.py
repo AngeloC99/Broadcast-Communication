@@ -12,12 +12,13 @@ def launch_node(id_node):
 
 def launch_channel(node1, node2):
     Channel(node1, node2, channel_bandwidth)
+   
 
-for n in range(7):
+for n in range(4):
     Thread(target = launch_node, args = [n], daemon = True).start()
 
-for m in range(7):
-    for n in range(7):
+for m in range(4):
+    for n in range(m,4):
         Thread(target = launch_channel, args = [m,n], daemon = True).start()
 
 input('Press ENTER to quit\n')
