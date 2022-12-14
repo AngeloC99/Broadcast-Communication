@@ -41,6 +41,15 @@ class Node:
         if self.may_crash:
             self.crash_thread = Thread(target = self.crash, daemon = True)
             self.crash_thread.start()
+
+        # Statistics about the node
+        self.received_messages_total = 0
+        self.unique_messages = 0
+        self.broadcast_requests = 0
+        self.avg_response_time = 0
+        self.throughput = 0
+        self.utilization = 0
+
         self.start_node()
 
     def broadcast(self, message):
@@ -102,6 +111,7 @@ class Node:
             print(f"[{time.time() - self.start_time}][{tag.upper()}] Process {self.id} broadcasts message {content} with sender {sender_id}")
 
         self.delivered.append(message)
+        print(f"[{time.time() - self.start_time}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
         self.eager_probabilistic_deliver(message)
         self.gossip(message)
 
@@ -134,7 +144,6 @@ class Node:
             print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
 
     def eager_probabilistic_deliver(self, message):
-        #print(f"{message} in DELIVER in process {self.id}")
         message_list = message.strip().split("_")
         sender_id = int(message_list[0])
         tag = message_list[1]
@@ -170,11 +179,10 @@ class Node:
     # of a crash message from the process that is crashing.
     def crash(self):
         if random.choice([True, False]):
-            crash_time = np.random.normal(5,2)
+            crash_time = np.random.exponential(30)                   # MTBF = 30 s
             print(f"Process {self.id} will crash in {crash_time} seconds...")
             time.sleep(crash_time)
             self.alive = False
-            
             self.broadcast(f"{self.id}_crash\n")
     
     def start_node(self):
@@ -193,7 +201,6 @@ class Node:
                 # Insert in the message the information about the number of rounds to perform
                 message = f"{self.id}_broadcast_{random.randint(1, 100)}_{time.time()}_{rounds}\n"
                 self.prob_broadcast(message)
-                return
             else:
                 self.broadcast(message)
 
