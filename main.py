@@ -81,5 +81,7 @@ for m in range(n_nodes):
 
 input('Press ENTER to quit\n')
 
+print("END OF THE RUN! Here you can find some interesting stats about it.")
+
 
 # Print stats when the run is completed
