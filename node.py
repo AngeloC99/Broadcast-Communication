@@ -6,7 +6,7 @@ import udp_support as udp
 import numpy as np
 
 class Node:
-    def __init__(self, id, n_nodes, broadcast_type, arrival_rate, start_time, may_crash, prob_k, n_rounds):
+    def __init__(self, id, n_nodes, broadcast_type, arrival_rate, start_time, may_crash, prob_k, n_rounds, nodes_to_channel):
         self.port = 9000 + id
         self.id = int(id)
         self.start_time = start_time
@@ -18,6 +18,7 @@ class Node:
         self.delivered = None
         self.fan_out = None
         self.n_rounds = None
+        self.nodes_to_channel = nodes_to_channel
 
         self.type = broadcast_type
         self.deliver = None
@@ -50,8 +51,6 @@ class Node:
         self.throughput = 0
         self.utilization = 0
 
-        self.start_node()
-
     def broadcast(self, message):
         message_list = message.strip().split("_")
         sender_id = message_list[0]
@@ -63,9 +62,9 @@ class Node:
         
         for node in self.correct:
             if self.id <= node:
-                channel_port = 9050 + int(f"{self.id}" + f"{node}")
+                channel_port = self.nodes_to_channel[(self.id, node)]
             else:
-                channel_port = 9050 + int(f"{node}" + f"{self.id}")
+                channel_port = self.nodes_to_channel[(node, self.id)]
             
             udp.udp_send(channel_port, message)
     
@@ -125,10 +124,15 @@ class Node:
         if message not in self.message_from:
             print(f"[{time.time() - self.start_time}][LRB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application
             self.message_from.append(message)
+            self.unique_messages += 1  # Update Stats
+
             if sender_id not in self.correct:
                 self.broadcast(message)
         else:
             print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
+
+        # Update Stats
+        self.received_messages_total += 1
 
     def eager_rb_deliver(self, message):
         message_list = message.strip().split("_")
@@ -140,8 +144,14 @@ class Node:
             self.delivered.append(message)
             print(f"[{time.time() - self.start_time}][ERB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
             self.broadcast(message)
+
+            self.unique_messages += 1  # Update Stats
         else:
             print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
+        
+        # Update Stats
+        self.received_messages_total += 1
+
 
     def eager_probabilistic_deliver(self, message):
         message_list = message.strip().split("_")
@@ -155,12 +165,17 @@ class Node:
         if message not in self.delivered:
             self.delivered.append(message)
             print(f"[{time.time() - self.start_time}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
-        
+            
+            self.unique_messages += 1  # Update Stats
+
         if current_round > 1:
             current_round -= 1
             new_message = f"{sender_id}_{tag}_{content}_{time_sent}_{current_round}\n"
             #print(f"new_message {new_message}")
             self.gossip(new_message)
+
+        # Update Stats
+        self.received_messages_total += 1
 
     # Method corresponding to the Crash event in our algorithms.
     def receive_crash(self, id):
@@ -201,7 +216,8 @@ class Node:
                 # Insert in the message the information about the number of rounds to perform
                 message = f"{self.id}_broadcast_{random.randint(1, 100)}_{time.time()}_{rounds}\n"
                 self.prob_broadcast(message)
+
+                self.broadcast_requests += 1  # Update Stats
             else:
                 self.broadcast(message)
-
-
+                self.broadcast_requests += 1  # Update Stats

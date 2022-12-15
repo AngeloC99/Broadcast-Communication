@@ -15,8 +15,8 @@ tableDelay = {
 }
 
 class Channel:
-    def __init__(self, node1, node2, bandwidth):
-        self.port = 9050 + int(f"{node1}" + f"{node2}")
+    def __init__(self, port, node1, node2, bandwidth):
+        self.port = port
         self.node1 = int(node1)
         self.node2 = int(node2)
         self.port1 = 9000 + self.node1
@@ -24,7 +24,6 @@ class Channel:
         self.bandwidth = bandwidth
         self.deliver = self.receive
         self.messages_in = deque(maxlen = 200)
-        udp.start_udp_server(self)
         
 
     def forward(self, message):
