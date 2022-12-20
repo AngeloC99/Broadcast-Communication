@@ -6,11 +6,12 @@ import udp_support as udp
 import numpy as np
 
 class Node:
-    def __init__(self, id, n_nodes, broadcast_type, arrival_rate, start_time, may_crash, prob_k, n_rounds, nodes_to_channel):
+    def __init__(self, id, n_nodes, broadcast_type, arrival_rate, service_rate, start_time, may_crash, prob_k, n_rounds, nodes_to_channel):
         self.port = 9000 + id
         self.id = int(id)
         self.start_time = start_time
         self.arrival_rate = arrival_rate
+        self.service_rate = service_rate
         # Lazy RB
         self.correct = set(range(n_nodes))
         self.message_from = None
@@ -48,7 +49,7 @@ class Node:
         self.unique_messages = 0
         self.broadcast_requests = 0
         self.avg_response_time = 0
-        self.throughput = 0
+        self.throughput = 0    # Number of messages sent in 1 second
         self.utilization = 0
 
     def broadcast(self, message):
@@ -59,7 +60,7 @@ class Node:
         if tag == "broadcast":
             content = message_list[2]
             print(f"[{time.time() - self.start_time}][{tag.upper()}] Process {self.id} broadcasts message {content} with sender {sender_id}")
-        
+
         for node in self.correct:
             if self.id <= node:
                 channel_port = self.nodes_to_channel[(self.id, node)]
@@ -67,7 +68,7 @@ class Node:
                 channel_port = self.nodes_to_channel[(node, self.id)]
             
             udp.udp_send(channel_port, message)
-    
+
     def pick_targets(self):
         targets = []
         candidates = list(self.correct)
@@ -76,7 +77,6 @@ class Node:
             candidate = int(random.choice(candidates))
             if candidate not in targets:
                 targets.append(candidate)
-        #print(targets)
         return targets
 
     def gossip(self, message):
@@ -90,12 +90,11 @@ class Node:
         targets = self.pick_targets()
         for n in targets:
             if self.id <= n:
-                channel_port = 9050 + int(f"{self.id}" + f"{n}")
+                channel_port = self.nodes_to_channel[(self.id, n)]
             else:
-                channel_port = 9050 + int(f"{n}" + f"{self.id}")
+                channel_port = self.nodes_to_channel[(n, self.id)]
             udp.udp_send(channel_port, message)
             print(f"[{time.time() - self.start_time}][GOSSIP] Process {self.id} sends to process {n} message {content} with sender {sender_id} and round {current_round}")
-
 
     def prob_broadcast(self, message):
         message_list = message.strip().split("_")
@@ -115,11 +114,19 @@ class Node:
         self.gossip(message)
 
     def lazy_rb_deliver(self, message):
+        self.process_data()
+
         message_list = message.strip().split("_")
         sender_id = int(message_list[0])
         tag = message_list[1]
         content = message_list[2]
-        time_sent = message_list[3]
+        time_sent = float(message_list[3])
+        time_to_deliver = time.time() - time_sent
+
+        if self.avg_response_time == 0:
+            self.avg_response_time = time_to_deliver
+        else:
+            self.avg_response_time = (self.avg_response_time + time_to_deliver) / 2
 
         if message not in self.message_from:
             print(f"[{time.time() - self.start_time}][LRB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application
@@ -135,10 +142,18 @@ class Node:
         self.received_messages_total += 1
 
     def eager_rb_deliver(self, message):
+        self.process_data()
+
         message_list = message.strip().split("_")
         sender_id = int(message_list[0])
         content = message_list[2]
-        time_sent = message_list[3]
+        time_sent = float(message_list[3])
+        time_to_deliver = time.time() - time_sent
+
+        if self.avg_response_time == 0:
+            self.avg_response_time = time_to_deliver
+        else:
+            self.avg_response_time = (self.avg_response_time + time_to_deliver) / 2
 
         if message not in self.delivered:
             self.delivered.append(message)
@@ -154,13 +169,21 @@ class Node:
 
 
     def eager_probabilistic_deliver(self, message):
+        self.process_data()
+
         message_list = message.strip().split("_")
         sender_id = int(message_list[0])
         tag = message_list[1]
         content = message_list[2]
-        time_sent = message_list[3]
+        time_sent = float(message_list[3])
         current_round = int(message_list[4])
-        
+
+        time_to_deliver = time.time() - time_sent
+
+        if self.avg_response_time == 0:
+            self.avg_response_time = time_to_deliver
+        else:
+            self.avg_response_time = (self.avg_response_time + time_to_deliver) / 2
         
         if message not in self.delivered:
             self.delivered.append(message)
@@ -194,7 +217,7 @@ class Node:
     # of a crash message from the process that is crashing.
     def crash(self):
         if random.choice([True, False]):
-            crash_time = np.random.exponential(30)                   # MTBF = 30 s
+            crash_time = np.random.exponential(30)                   # MTTF = 30 s
             print(f"Process {self.id} will crash in {crash_time} seconds...")
             time.sleep(crash_time)
             self.alive = False
@@ -221,3 +244,13 @@ class Node:
             else:
                 self.broadcast(message)
                 self.broadcast_requests += 1  # Update Stats
+
+
+    # Method to simulate the processing of a single message accordin to an exponential distribution
+    def process_data(self):
+        scale_beta = 1/self.service_rate
+        
+        # It returns a sequence of values which can be assumed by a random variable following an exponential distribution.
+        # The first parameter is the scale beta (the inverse of the rate lambda) and the second the size of the array of values to return.
+        processing_time = np.random.exponential(scale_beta)
+        time.sleep(processing_time)
