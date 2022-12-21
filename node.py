@@ -59,7 +59,7 @@ class Node:
 
         if tag == "broadcast":
             content = message_list[2]
-            print(f"[{time.time() - self.start_time}][{tag.upper()}] Process {self.id} broadcasts message {content} with sender {sender_id}")
+            print(f"[{round(time.time() - self.start_time,3)}][{tag.upper()}] Process {self.id} broadcasts message {content} with sender {sender_id}")
 
         for node in self.correct:
             if self.id <= node:
@@ -94,7 +94,7 @@ class Node:
             else:
                 channel_port = self.nodes_to_channel[(n, self.id)]
             udp.udp_send(channel_port, message)
-            print(f"[{time.time() - self.start_time}][GOSSIP] Process {self.id} sends to process {n} message {content} with sender {sender_id} and round {current_round}")
+            print(f"[{round(time.time() - self.start_time,3)}][GOSSIP] Process {self.id} sends to process {n} message {content} with sender {sender_id} and round {current_round}")
 
     def prob_broadcast(self, message):
         message_list = message.strip().split("_")
@@ -106,10 +106,10 @@ class Node:
 
         if tag == "broadcast":
             content = message_list[2]
-            print(f"[{time.time() - self.start_time}][{tag.upper()}] Process {self.id} broadcasts message {content} with sender {sender_id}")
+            print(f"[{round(time.time() - self.start_time,3)}][{tag.upper()}] Process {self.id} broadcasts message {content} with sender {sender_id}")
 
         self.delivered.append(message)
-        print(f"[{time.time() - self.start_time}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
+        print(f"[{round(time.time() - self.start_time,3)}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
         self.eager_probabilistic_deliver(message)
         self.gossip(message)
 
@@ -129,14 +129,14 @@ class Node:
             self.avg_response_time = (self.avg_response_time + time_to_deliver) / 2
 
         if message not in self.message_from:
-            print(f"[{time.time() - self.start_time}][LRB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application
+            print(f"[{round(time.time() - self.start_time,3)}][LRB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application
             self.message_from.append(message)
             self.unique_messages += 1  # Update Stats
 
             if sender_id not in self.correct:
                 self.broadcast(message)
         else:
-            print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
+            print(f"[{round(time.time() - self.start_time,3)}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
 
         # Update Stats
         self.received_messages_total += 1
@@ -157,12 +157,12 @@ class Node:
 
         if message not in self.delivered:
             self.delivered.append(message)
-            print(f"[{time.time() - self.start_time}][ERB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
+            print(f"[{round(time.time() - self.start_time,3)}][ERB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
             self.broadcast(message)
 
             self.unique_messages += 1  # Update Stats
         else:
-            print(f"[{time.time() - self.start_time}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
+            print(f"[{round(time.time() - self.start_time,3)}][NO DELIVERY] Process {self.id} already delivered message {content} with sender {sender_id}")
         
         # Update Stats
         self.received_messages_total += 1
@@ -187,7 +187,7 @@ class Node:
         
         if message not in self.delivered:
             self.delivered.append(message)
-            print(f"[{time.time() - self.start_time}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
+            print(f"[{round(time.time() - self.start_time,3)}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
             
             self.unique_messages += 1  # Update Stats
 
@@ -204,7 +204,7 @@ class Node:
     def receive_crash(self, id):
         if self.type == "lazy_rb":
             self.correct.remove(int(id))
-            print(f"[{time.time() - self.start_time}][CRASH] Process {self.id} detects crash of process {id}")
+            print(f"[{round(time.time() - self.start_time,3)}][CRASH] Process {self.id} detects crash of process {id}")
             for message in self.message_from:
                 message_list = message.strip().split("_")
                 sender_id = message_list[0]
