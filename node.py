@@ -221,11 +221,11 @@ class Node:
             print(f"Process {self.id} will crash in {crash_time} seconds...")
             time.sleep(crash_time)
             self.alive = False
-            self.broadcast(f"{self.id}_crash\n")
+            self.broadcast(f"{self.id}_crash_process_{time.time()}\n")
     
     def start_node(self):
         scale_beta = 1/self.arrival_rate
-        time_instants = np.random.exponential(scale_beta, 20)
+        time_instants = np.random.exponential(scale_beta, 100)
 
         for t in time_instants:
             time.sleep(t)
