@@ -58,21 +58,9 @@ if broadcast_type == "eager_prob":
 
 run_id = random.randint(0, 1000000)
 
-"""
-n_nodes = 7
-arrival_rate = 0.5   # lambda
-service_rate = 1000   # node mu
-channel_bandwidth = 10   # channel mu
-broadcast_type = "lazy_rb"
-start_time = time.time()
-may_crash = False
-# If probabilistic brodcast
-fan_out = 2
-n_rounds = 3
-"""
-
 nodes_list = []
 channel_list = []
+n_crash = 0
 
 # Global dictionary to connect a pair of nodes to the right channel linking them
 nodes_to_channel = {}
@@ -104,9 +92,8 @@ finish_time = time.time()
 run_duration = finish_time - start_time
 
 
-with open(f"stats_file_{run_id}.txt","a") as stats_file:
-    stats_file.write(f"Statistics of run {run_id}:\n")
-    stats_file.write("------------------------------------------------------------------------------------------------------------------------\n")
+with open(f"stats_file_{run_id}_{broadcast_type}_crash_{may_crash}.txt","a") as stats_file:
+    stats_file.write(f"Statistics of run {run_id}\n")
     stats_file.write("Broadcast Type: ")
     if broadcast_type == "lazy_rb":
         stats_file.write("Lazy Reliable Broadcast\n")
@@ -139,8 +126,10 @@ with open(f"stats_file_{run_id}.txt","a") as stats_file:
     nodes_throughput = 0
     nodes_utilization = 0
     for node in nodes_list:
+        if node.alive == False:
+            n_crash += 1
         node.throughput = node.broadcast_requests / run_duration
-        node.utilization = (1/service_rate) * node.throughput * n_nodes
+        node.utilization = (1/service_rate) * node.throughput                       # Utilization in terms of messages sent by a node in 1 second
         if nodes_avg_response_time == 0:                                                      # First node considered
             nodes_avg_response_time = node.avg_response_time
             nodes_throughput = node.throughput
@@ -164,7 +153,7 @@ with open(f"stats_file_{run_id}.txt","a") as stats_file:
     channels_throughput = 0
     channels_utilization = 0
     for channel in channel_list:
-        channel.throughput = len(channel.messages_in) / run_duration
+        channel.throughput = channel.received_messages / run_duration
         channel.utilization = (1/channel_bandwidth) * channel.throughput
         if channels_avg_response_time == 0:                                 # First channel considered
             channels_avg_response_time = channel.avg_response_time
@@ -181,6 +170,9 @@ with open(f"stats_file_{run_id}.txt","a") as stats_file:
         stats_file.write(f"Average Utilization: {channel.utilization * 100} %\n")
     
     stats_file.write("--------------------------------------------- AGGREGATE STATISTICS -----------------------------------------------------\n")
+
+    if may_crash == True:
+        stats_file.write(f"Number of crash happened: {n_crash}\n")
 
     stats_file.write(f"Average Total Response Time for a request (considering a generic channel followed by a generic node) is: {nodes_avg_response_time} s\n")
     stats_file.write(f"Average Throughput for a node: {nodes_throughput} processed requests/s\n")

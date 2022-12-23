@@ -194,7 +194,6 @@ class Node:
         if current_round > 1:
             current_round -= 1
             new_message = f"{sender_id}_{tag}_{content}_{time_sent}_{current_round}\n"
-            #print(f"new_message {new_message}")
             self.gossip(new_message)
 
         # Update Stats

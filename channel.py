@@ -1,6 +1,4 @@
-from collections import deque
 import udp_support as udp
-from threading import Thread
 import time
 import numpy as np
 
@@ -13,9 +11,9 @@ class Channel:
         self.port2 = 9000 + self.node2
         self.bandwidth = bandwidth
         self.deliver = self.receive
-        self.messages_in = deque(maxlen = 200)
         
         # Statistics about the node
+        self.received_messages = 0
         self.avg_response_time = 0
         self.throughput = 0    # Number of messages sent in 1 second
         self.utilization = 0
@@ -39,7 +37,7 @@ class Channel:
 
     def receive(self, message):
         self.process_data()
-        self.messages_in.append(message)
+        self.received_messages += 1
 
         message_list = message.strip().split("_")
         time_sent = float(message_list[3])
