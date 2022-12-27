@@ -33,8 +33,6 @@ while broadcast_type == None:
         print("NOT VALID INPUT! PLEASE TRY AGAIN!")
         broadcast_choice = input("Your choice: ")
 
-start_time = time.time()
-
 print("Nodes in the distributed system can crash?")
 print("y) Yes")
 print("n) No")
@@ -57,6 +55,7 @@ if broadcast_type == "eager_prob":
 
 
 run_id = random.randint(0, 1000000)
+start_time = time.time()
 
 nodes_list = []
 channel_list = []
@@ -92,7 +91,7 @@ finish_time = time.time()
 run_duration = finish_time - start_time
 
 
-with open(f"stats_file_{run_id}_{broadcast_type}_crash_{may_crash}.txt","a") as stats_file:
+with open(f"stats_file_{run_id}_{n_nodes}nodes_{broadcast_type}_crash_{may_crash}.txt","a") as stats_file:
     stats_file.write(f"Statistics of run {run_id}\n")
     stats_file.write("Broadcast Type: ")
     if broadcast_type == "lazy_rb":
@@ -129,7 +128,7 @@ with open(f"stats_file_{run_id}_{broadcast_type}_crash_{may_crash}.txt","a") as 
         if node.alive == False:
             n_crash += 1
         node.throughput = node.broadcast_requests / run_duration
-        node.utilization = (1/service_rate) * node.throughput                       # Utilization in terms of messages sent by a node in 1 second
+        node.utilization = (1/service_rate) * node.throughput                       # Utilization in terms of broadcasts processed by a node in 1 second
         if nodes_avg_response_time == 0:                                                      # First node considered
             nodes_avg_response_time = node.avg_response_time
             nodes_throughput = node.throughput
@@ -145,7 +144,6 @@ with open(f"stats_file_{run_id}_{broadcast_type}_crash_{may_crash}.txt","a") as 
         stats_file.write(f"Broadcast requests processed: {node.broadcast_requests} requests\n")
         stats_file.write(f"Average Response Time (expected time to deliver a message): {node.avg_response_time} s\n")
         stats_file.write(f"Average Throughput (broadcast requests processed in 1 second): {node.throughput} processed requests/s\n")
-        stats_file.write(f"Average Throughput (messages sent in 1 second): {node.throughput * n_nodes} msgs/s\n")
         stats_file.write(f"Average Utilization: {node.utilization * 100} %\n")
 
     stats_file.write("-------------------------------------------------- CHANNELS ------------------------------------------------------------\n")
@@ -171,15 +169,13 @@ with open(f"stats_file_{run_id}_{broadcast_type}_crash_{may_crash}.txt","a") as 
     
     stats_file.write("--------------------------------------------- AGGREGATE STATISTICS -----------------------------------------------------\n")
 
-    if may_crash == True:
-        stats_file.write(f"Number of crash happened: {n_crash}\n")
-
     stats_file.write(f"Average Total Response Time for a request (considering a generic channel followed by a generic node) is: {nodes_avg_response_time} s\n")
     stats_file.write(f"Average Throughput for a node: {nodes_throughput} processed requests/s\n")
-    stats_file.write(f"Average Throughput for a node: {nodes_throughput * n_nodes} msgs/s\n")
-    stats_file.write(f"Average Utilization for a node: {nodes_utilization * 100} %\n")
     stats_file.write(f"Average Throughput for a channel: {channels_throughput} msgs/s\n")
+    stats_file.write(f"Average Utilization for a node: {nodes_utilization * 100} %\n")
     stats_file.write(f"Average Utilization for a channel: {channels_utilization * 100} %\n")
+    if may_crash == True:
+        stats_file.write(f"Number of crash happened: {n_crash}\n")
 
 
 print(f"END OF THE RUN! The stats of the run are available at stats_file_{run_id}.txt.")

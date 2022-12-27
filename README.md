@@ -3,7 +3,7 @@ Implementation and performance evaluation of reliable and probabilistic broadcas
 
 ## About The Project
 <img alt="logo" src="./Documentation/assets/screen_logo.png">
-This is a short framework created to simulate some of the most common broadcast protocols in distributed systems,
+This is a small framework created to simulate some of the most common broadcast protocols in distributed systems,
 allowing to tune the parameters of interests before starting the run.
 
 ## Requirements

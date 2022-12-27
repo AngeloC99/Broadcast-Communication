@@ -1,0 +1,2087 @@
+Statistics of run 969584
+Broadcast Type: Lazy Reliable Broadcast
+Number of nodes in the system: 30
+Arrival rate of the bradcast requests: 0.3 requests/s
+Service rate of the node: 800.0 msgs/s
+Channel bandwidth: 10.0 msgs/s
+No failures
+Duration of the run : 120.39465856552124 s
+The system is stable
+--------------------------------------------------- NODES --------------------------------------------------------------
+------------------------------------------------- PROCESS 0 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 43 requests
+Average Response Time (expected time to deliver a message): 0.05363613282105455 s
+Average Throughput (broadcast requests processed in 1 second): 0.35715870215785794 processed requests/s
+Average Utilization: 0.04464483776973224 %
+------------------------------------------------- PROCESS 1 ------------------------------------------------------------
+Received messages in total: 1060 msgs
+Delivered unique messages: 1060 msgs
+Broadcast requests processed: 40 requests
+Average Response Time (expected time to deliver a message): 0.05282584298940392 s
+Average Throughput (broadcast requests processed in 1 second): 0.3322406531701004 processed requests/s
+Average Utilization: 0.04153008164626255 %
+------------------------------------------------- PROCESS 2 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 31 requests
+Average Response Time (expected time to deliver a message): 0.20495490508208158 s
+Average Throughput (broadcast requests processed in 1 second): 0.25748650620682784 processed requests/s
+Average Utilization: 0.03218581327585348 %
+------------------------------------------------- PROCESS 3 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 35 requests
+Average Response Time (expected time to deliver a message): 0.10186531404804 s
+Average Throughput (broadcast requests processed in 1 second): 0.29071057152383784 processed requests/s
+Average Utilization: 0.03633882144047973 %
+------------------------------------------------- PROCESS 5 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 38 requests
+Average Response Time (expected time to deliver a message): 0.048591723972026914 s
+Average Throughput (broadcast requests processed in 1 second): 0.3156286205115954 processed requests/s
+Average Utilization: 0.039453577563949425 %
+------------------------------------------------- PROCESS 4 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 37 requests
+Average Response Time (expected time to deliver a message): 0.058106267304668356 s
+Average Throughput (broadcast requests processed in 1 second): 0.30732260418234286 processed requests/s
+Average Utilization: 0.03841532552279286 %
+------------------------------------------------- PROCESS 6 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 48 requests
+Average Response Time (expected time to deliver a message): 0.09887984960355209 s
+Average Throughput (broadcast requests processed in 1 second): 0.3986887838041205 processed requests/s
+Average Utilization: 0.04983609797551506 %
+------------------------------------------------- PROCESS 7 ------------------------------------------------------------
+Received messages in total: 1060 msgs
+Delivered unique messages: 1060 msgs
+Broadcast requests processed: 42 requests
+Average Response Time (expected time to deliver a message): 0.07709543621214486 s
+Average Throughput (broadcast requests processed in 1 second): 0.3488526858286054 processed requests/s
+Average Utilization: 0.043606585728575675 %
+------------------------------------------------- PROCESS 9 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 32 requests
+Average Response Time (expected time to deliver a message): 0.04902986267410408 s
+Average Throughput (broadcast requests processed in 1 second): 0.2657925225360803 processed requests/s
+Average Utilization: 0.03322406531701004 %
+------------------------------------------------- PROCESS 10 ------------------------------------------------------------
+Received messages in total: 1060 msgs
+Delivered unique messages: 1060 msgs
+Broadcast requests processed: 27 requests
+Average Response Time (expected time to deliver a message): 0.07593454696191004 s
+Average Throughput (broadcast requests processed in 1 second): 0.22426244088981778 processed requests/s
+Average Utilization: 0.028032805111227223 %
+------------------------------------------------- PROCESS 12 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 44 requests
+Average Response Time (expected time to deliver a message): 0.06403652335657087 s
+Average Throughput (broadcast requests processed in 1 second): 0.36546471848711043 processed requests/s
+Average Utilization: 0.045683089810888804 %
+------------------------------------------------- PROCESS 8 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 36 requests
+Average Response Time (expected time to deliver a message): 0.03746064836534041 s
+Average Throughput (broadcast requests processed in 1 second): 0.2990165878530904 processed requests/s
+Average Utilization: 0.0373770734816363 %
+------------------------------------------------- PROCESS 13 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 25 requests
+Average Response Time (expected time to deliver a message): 0.07108547671308482 s
+Average Throughput (broadcast requests processed in 1 second): 0.20765040823131276 processed requests/s
+Average Utilization: 0.025956301028914094 %
+------------------------------------------------- PROCESS 14 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 24 requests
+Average Response Time (expected time to deliver a message): 0.053109493171337716 s
+Average Throughput (broadcast requests processed in 1 second): 0.19934439190206024 processed requests/s
+Average Utilization: 0.02491804898775753 %
+------------------------------------------------- PROCESS 11 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 45 requests
+Average Response Time (expected time to deliver a message): 0.06468124135634543 s
+Average Throughput (broadcast requests processed in 1 second): 0.37377073481636297 processed requests/s
+Average Utilization: 0.04672134185204537 %
+------------------------------------------------- PROCESS 15 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 28 requests
+Average Response Time (expected time to deliver a message): 0.08885081514476892 s
+Average Throughput (broadcast requests processed in 1 second): 0.23256845721907027 processed requests/s
+Average Utilization: 0.029071057152383784 %
+------------------------------------------------- PROCESS 16 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 38 requests
+Average Response Time (expected time to deliver a message): 0.03433808018212975 s
+Average Throughput (broadcast requests processed in 1 second): 0.3156286205115954 processed requests/s
+Average Utilization: 0.039453577563949425 %
+------------------------------------------------- PROCESS 17 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 29 requests
+Average Response Time (expected time to deliver a message): 0.1104771033700083 s
+Average Throughput (broadcast requests processed in 1 second): 0.24087447354832278 processed requests/s
+Average Utilization: 0.030109309193540348 %
+------------------------------------------------- PROCESS 19 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 39 requests
+Average Response Time (expected time to deliver a message): 0.16335925216367403 s
+Average Throughput (broadcast requests processed in 1 second): 0.3239346368408479 processed requests/s
+Average Utilization: 0.040491829605105986 %
+------------------------------------------------- PROCESS 18 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 25 requests
+Average Response Time (expected time to deliver a message): 0.07255771268965432 s
+Average Throughput (broadcast requests processed in 1 second): 0.20765040823131276 processed requests/s
+Average Utilization: 0.025956301028914094 %
+------------------------------------------------- PROCESS 20 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 30 requests
+Average Response Time (expected time to deliver a message): 0.05846809031195338 s
+Average Throughput (broadcast requests processed in 1 second): 0.2491804898775753 processed requests/s
+Average Utilization: 0.031147561234696912 %
+------------------------------------------------- PROCESS 21 ------------------------------------------------------------
+Received messages in total: 1060 msgs
+Delivered unique messages: 1060 msgs
+Broadcast requests processed: 29 requests
+Average Response Time (expected time to deliver a message): 0.11416199846198524 s
+Average Throughput (broadcast requests processed in 1 second): 0.24087447354832278 processed requests/s
+Average Utilization: 0.030109309193540348 %
+------------------------------------------------- PROCESS 23 ------------------------------------------------------------
+Received messages in total: 1060 msgs
+Delivered unique messages: 1060 msgs
+Broadcast requests processed: 44 requests
+Average Response Time (expected time to deliver a message): 0.05075199500208174 s
+Average Throughput (broadcast requests processed in 1 second): 0.36546471848711043 processed requests/s
+Average Utilization: 0.045683089810888804 %
+------------------------------------------------- PROCESS 22 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 42 requests
+Average Response Time (expected time to deliver a message): 0.04649726590238086 s
+Average Throughput (broadcast requests processed in 1 second): 0.3488526858286054 processed requests/s
+Average Utilization: 0.043606585728575675 %
+------------------------------------------------- PROCESS 25 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 36 requests
+Average Response Time (expected time to deliver a message): 0.07176190569913353 s
+Average Throughput (broadcast requests processed in 1 second): 0.2990165878530904 processed requests/s
+Average Utilization: 0.0373770734816363 %
+------------------------------------------------- PROCESS 24 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 36 requests
+Average Response Time (expected time to deliver a message): 0.07710852339809948 s
+Average Throughput (broadcast requests processed in 1 second): 0.2990165878530904 processed requests/s
+Average Utilization: 0.0373770734816363 %
+------------------------------------------------- PROCESS 26 ------------------------------------------------------------
+Received messages in total: 1057 msgs
+Delivered unique messages: 1057 msgs
+Broadcast requests processed: 37 requests
+Average Response Time (expected time to deliver a message): 0.22122209744996396 s
+Average Throughput (broadcast requests processed in 1 second): 0.30732260418234286 processed requests/s
+Average Utilization: 0.03841532552279286 %
+------------------------------------------------- PROCESS 29 ------------------------------------------------------------
+Received messages in total: 1057 msgs
+Delivered unique messages: 1057 msgs
+Broadcast requests processed: 35 requests
+Average Response Time (expected time to deliver a message): 0.2837435593156776 s
+Average Throughput (broadcast requests processed in 1 second): 0.29071057152383784 processed requests/s
+Average Utilization: 0.03633882144047973 %
+------------------------------------------------- PROCESS 27 ------------------------------------------------------------
+Received messages in total: 1058 msgs
+Delivered unique messages: 1058 msgs
+Broadcast requests processed: 38 requests
+Average Response Time (expected time to deliver a message): 0.10228835576368123 s
+Average Throughput (broadcast requests processed in 1 second): 0.3156286205115954 processed requests/s
+Average Utilization: 0.039453577563949425 %
+------------------------------------------------- PROCESS 28 ------------------------------------------------------------
+Received messages in total: 1059 msgs
+Delivered unique messages: 1059 msgs
+Broadcast requests processed: 27 requests
+Average Response Time (expected time to deliver a message): 0.09041155957272674 s
+Average Throughput (broadcast requests processed in 1 second): 0.22426244088981778 processed requests/s
+Average Utilization: 0.028032805111227223 %
+-------------------------------------------------- CHANNELS ------------------------------------------------------------
+------------------------------------------------ CHANNEL (0,0) ---------------------------------------------------------
+Average Response Time: 0.11568586184608125 msgs/s
+Average Throughput (messages sent in 1 second): 0.35715870215785794 msgs/s
+Average Utilization: 3.5715870215785794 %
+------------------------------------------------ CHANNEL (0,1) ---------------------------------------------------------
+Average Response Time: 0.07637772394680076 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (0,2) ---------------------------------------------------------
+Average Response Time: 0.13471456445131758 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (0,3) ---------------------------------------------------------
+Average Response Time: 0.12726963732580554 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (0,4) ---------------------------------------------------------
+Average Response Time: 0.06538891762403255 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (0,5) ---------------------------------------------------------
+Average Response Time: 0.0657506246933962 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (0,6) ---------------------------------------------------------
+Average Response Time: 0.09252473525269127 msgs/s
+Average Throughput (messages sent in 1 second): 0.7558474859619784 msgs/s
+Average Utilization: 7.558474859619785 %
+------------------------------------------------ CHANNEL (0,7) ---------------------------------------------------------
+Average Response Time: 0.08787721631831692 msgs/s
+Average Throughput (messages sent in 1 second): 0.7060113879864633 msgs/s
+Average Utilization: 7.060113879864634 %
+------------------------------------------------ CHANNEL (0,8) ---------------------------------------------------------
+Average Response Time: 0.05794876780510587 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (0,9) ---------------------------------------------------------
+Average Response Time: 0.10648961829475262 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (0,10) ---------------------------------------------------------
+Average Response Time: 0.09400730786538589 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (0,11) ---------------------------------------------------------
+Average Response Time: 0.09385131584366288 msgs/s
+Average Throughput (messages sent in 1 second): 0.7309294369742209 msgs/s
+Average Utilization: 7.309294369742209 %
+------------------------------------------------ CHANNEL (0,12) ---------------------------------------------------------
+Average Response Time: 0.05132644066650767 msgs/s
+Average Throughput (messages sent in 1 second): 0.7226234206449684 msgs/s
+Average Utilization: 7.226234206449685 %
+------------------------------------------------ CHANNEL (0,13) ---------------------------------------------------------
+Average Response Time: 0.06247220659533082 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (0,14) ---------------------------------------------------------
+Average Response Time: 0.051954622215772864 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (0,15) ---------------------------------------------------------
+Average Response Time: 0.035790847937929006 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (0,16) ---------------------------------------------------------
+Average Response Time: 0.036220581085857906 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (0,17) ---------------------------------------------------------
+Average Response Time: 0.05404399590130529 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (0,18) ---------------------------------------------------------
+Average Response Time: 0.41909613284836533 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (0,19) ---------------------------------------------------------
+Average Response Time: 0.1187523012289817 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (0,20) ---------------------------------------------------------
+Average Response Time: 0.049122935391180594 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (0,21) ---------------------------------------------------------
+Average Response Time: 0.25543773327294517 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (0,22) ---------------------------------------------------------
+Average Response Time: 0.07671324456841383 msgs/s
+Average Throughput (messages sent in 1 second): 0.7060113879864633 msgs/s
+Average Utilization: 7.060113879864634 %
+------------------------------------------------ CHANNEL (0,23) ---------------------------------------------------------
+Average Response Time: 0.0856028272782188 msgs/s
+Average Throughput (messages sent in 1 second): 0.7226234206449684 msgs/s
+Average Utilization: 7.226234206449685 %
+------------------------------------------------ CHANNEL (0,24) ---------------------------------------------------------
+Average Response Time: 0.05713096149634013 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (0,25) ---------------------------------------------------------
+Average Response Time: 0.03805750582795625 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (0,26) ---------------------------------------------------------
+Average Response Time: 0.08655134033037999 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (0,27) ---------------------------------------------------------
+Average Response Time: 0.12451620098456209 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (0,28) ---------------------------------------------------------
+Average Response Time: 0.15254313073237175 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (0,29) ---------------------------------------------------------
+Average Response Time: 0.0896961363884027 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (1,1) ---------------------------------------------------------
+Average Response Time: 0.13690930005409446 msgs/s
+Average Throughput (messages sent in 1 second): 0.3322406531701004 msgs/s
+Average Utilization: 3.322406531701004 %
+------------------------------------------------ CHANNEL (1,2) ---------------------------------------------------------
+Average Response Time: 0.08579905691279775 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (1,3) ---------------------------------------------------------
+Average Response Time: 0.14801061627550635 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (1,4) ---------------------------------------------------------
+Average Response Time: 0.14111347258997164 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (1,5) ---------------------------------------------------------
+Average Response Time: 0.09801661260251329 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (1,6) ---------------------------------------------------------
+Average Response Time: 0.24751509092926843 msgs/s
+Average Throughput (messages sent in 1 second): 0.7309294369742209 msgs/s
+Average Utilization: 7.309294369742209 %
+------------------------------------------------ CHANNEL (1,7) ---------------------------------------------------------
+Average Response Time: 0.11491533287719864 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (1,8) ---------------------------------------------------------
+Average Response Time: 0.09288135337044418 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (1,9) ---------------------------------------------------------
+Average Response Time: 0.048869093971272884 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (1,10) ---------------------------------------------------------
+Average Response Time: 0.08744774315660883 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (1,11) ---------------------------------------------------------
+Average Response Time: 0.07467081254833584 msgs/s
+Average Throughput (messages sent in 1 second): 0.7060113879864633 msgs/s
+Average Utilization: 7.060113879864634 %
+------------------------------------------------ CHANNEL (1,12) ---------------------------------------------------------
+Average Response Time: 0.07059024543815884 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (1,13) ---------------------------------------------------------
+Average Response Time: 0.03223985595229268 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (1,14) ---------------------------------------------------------
+Average Response Time: 0.03298093770888601 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (1,15) ---------------------------------------------------------
+Average Response Time: 0.07991549050221003 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (1,16) ---------------------------------------------------------
+Average Response Time: 0.0658593306932834 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (1,17) ---------------------------------------------------------
+Average Response Time: 0.12002666413090456 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (1,18) ---------------------------------------------------------
+Average Response Time: 0.09738077729897997 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (1,19) ---------------------------------------------------------
+Average Response Time: 0.14858619510286938 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (1,20) ---------------------------------------------------------
+Average Response Time: 0.0656594052521541 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (1,21) ---------------------------------------------------------
+Average Response Time: 0.0933658988114533 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (1,22) ---------------------------------------------------------
+Average Response Time: 0.06102088443542594 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (1,23) ---------------------------------------------------------
+Average Response Time: 0.22351452229236626 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (1,24) ---------------------------------------------------------
+Average Response Time: 0.16577894620514927 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (1,25) ---------------------------------------------------------
+Average Response Time: 0.06042441502421508 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (1,26) ---------------------------------------------------------
+Average Response Time: 0.13812534378374108 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (1,27) ---------------------------------------------------------
+Average Response Time: 0.04926986432449165 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (1,28) ---------------------------------------------------------
+Average Response Time: 0.28187688768942776 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (1,29) ---------------------------------------------------------
+Average Response Time: 0.10259550322962575 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (2,2) ---------------------------------------------------------
+Average Response Time: 0.10568686397645921 msgs/s
+Average Throughput (messages sent in 1 second): 0.25748650620682784 msgs/s
+Average Utilization: 2.5748650620682785 %
+------------------------------------------------ CHANNEL (2,3) ---------------------------------------------------------
+Average Response Time: 0.2677488031659934 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (2,4) ---------------------------------------------------------
+Average Response Time: 0.05114641342093751 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (2,5) ---------------------------------------------------------
+Average Response Time: 0.19619726550179656 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (2,6) ---------------------------------------------------------
+Average Response Time: 0.1865002879162571 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (2,7) ---------------------------------------------------------
+Average Response Time: 0.08021053909448086 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (2,8) ---------------------------------------------------------
+Average Response Time: 0.1877174725192698 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (2,9) ---------------------------------------------------------
+Average Response Time: 0.08571471741923206 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (2,10) ---------------------------------------------------------
+Average Response Time: 0.3268675650679787 msgs/s
+Average Throughput (messages sent in 1 second): 0.48174894709664556 msgs/s
+Average Utilization: 4.817489470966456 %
+------------------------------------------------ CHANNEL (2,11) ---------------------------------------------------------
+Average Response Time: 0.06790388280189837 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (2,12) ---------------------------------------------------------
+Average Response Time: 0.10532354281332255 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (2,13) ---------------------------------------------------------
+Average Response Time: 0.05087909811375209 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (2,14) ---------------------------------------------------------
+Average Response Time: 0.07200755701400667 msgs/s
+Average Throughput (messages sent in 1 second): 0.45683089810888805 msgs/s
+Average Utilization: 4.568308981088881 %
+------------------------------------------------ CHANNEL (2,15) ---------------------------------------------------------
+Average Response Time: 0.10156783389558184 msgs/s
+Average Throughput (messages sent in 1 second): 0.48174894709664556 msgs/s
+Average Utilization: 4.817489470966456 %
+------------------------------------------------ CHANNEL (2,16) ---------------------------------------------------------
+Average Response Time: 0.07589943357932136 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (2,17) ---------------------------------------------------------
+Average Response Time: 0.17711268839895702 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (2,18) ---------------------------------------------------------
+Average Response Time: 0.08390932089794388 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (2,19) ---------------------------------------------------------
+Average Response Time: 0.1476431003658283 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (2,20) ---------------------------------------------------------
+Average Response Time: 0.20774800988575615 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (2,21) ---------------------------------------------------------
+Average Response Time: 0.11955205912835651 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (2,22) ---------------------------------------------------------
+Average Response Time: 0.16083001462884364 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (2,23) ---------------------------------------------------------
+Average Response Time: 0.08614067634792892 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (2,24) ---------------------------------------------------------
+Average Response Time: 0.24290100373177578 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (2,25) ---------------------------------------------------------
+Average Response Time: 0.16988832382965469 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (2,26) ---------------------------------------------------------
+Average Response Time: 0.06651072848141293 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (2,27) ---------------------------------------------------------
+Average Response Time: 0.08156366946518342 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (2,28) ---------------------------------------------------------
+Average Response Time: 0.20673751635976287 msgs/s
+Average Throughput (messages sent in 1 second): 0.48174894709664556 msgs/s
+Average Utilization: 4.817489470966456 %
+------------------------------------------------ CHANNEL (2,29) ---------------------------------------------------------
+Average Response Time: 0.2628858147890877 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (3,3) ---------------------------------------------------------
+Average Response Time: 0.10267782927227705 msgs/s
+Average Throughput (messages sent in 1 second): 0.29071057152383784 msgs/s
+Average Utilization: 2.9071057152383784 %
+------------------------------------------------ CHANNEL (3,4) ---------------------------------------------------------
+Average Response Time: 0.1162932127600711 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (3,5) ---------------------------------------------------------
+Average Response Time: 0.09345249425369537 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (3,6) ---------------------------------------------------------
+Average Response Time: 0.1035983306304101 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (3,7) ---------------------------------------------------------
+Average Response Time: 0.07982427259645225 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (3,8) ---------------------------------------------------------
+Average Response Time: 0.05020451898361171 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (3,9) ---------------------------------------------------------
+Average Response Time: 0.13106480058455156 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (3,10) ---------------------------------------------------------
+Average Response Time: 0.13698158660093482 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (3,11) ---------------------------------------------------------
+Average Response Time: 0.053404668929476776 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (3,12) ---------------------------------------------------------
+Average Response Time: 0.18417090301058428 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (3,13) ---------------------------------------------------------
+Average Response Time: 0.08412078075246966 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (3,14) ---------------------------------------------------------
+Average Response Time: 0.07113560923300555 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (3,15) ---------------------------------------------------------
+Average Response Time: 0.04556277923496598 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (3,16) ---------------------------------------------------------
+Average Response Time: 0.08434156491470905 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (3,17) ---------------------------------------------------------
+Average Response Time: 0.06511442238303464 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (3,18) ---------------------------------------------------------
+Average Response Time: 0.12157121423777284 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (3,19) ---------------------------------------------------------
+Average Response Time: 0.10008986857486477 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (3,20) ---------------------------------------------------------
+Average Response Time: 0.11135745835746641 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (3,21) ---------------------------------------------------------
+Average Response Time: 0.19653950393769012 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (3,22) ---------------------------------------------------------
+Average Response Time: 0.07183503098814495 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (3,23) ---------------------------------------------------------
+Average Response Time: 0.09334683060845919 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (3,24) ---------------------------------------------------------
+Average Response Time: 0.06368313491205371 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (3,25) ---------------------------------------------------------
+Average Response Time: 0.08475769653024542 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (3,26) ---------------------------------------------------------
+Average Response Time: 0.2158435410166016 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (3,27) ---------------------------------------------------------
+Average Response Time: 0.05251911692286043 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (3,28) ---------------------------------------------------------
+Average Response Time: 0.15694184805554223 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (3,29) ---------------------------------------------------------
+Average Response Time: 0.28872953585457306 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (4,4) ---------------------------------------------------------
+Average Response Time: 0.04982293649653893 msgs/s
+Average Throughput (messages sent in 1 second): 0.30732260418234286 msgs/s
+Average Utilization: 3.0732260418234287 %
+------------------------------------------------ CHANNEL (4,5) ---------------------------------------------------------
+Average Response Time: 0.20839027857842018 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (4,6) ---------------------------------------------------------
+Average Response Time: 0.10772951979155682 msgs/s
+Average Throughput (messages sent in 1 second): 0.7060113879864633 msgs/s
+Average Utilization: 7.060113879864634 %
+------------------------------------------------ CHANNEL (4,7) ---------------------------------------------------------
+Average Response Time: 0.07627484175516146 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (4,8) ---------------------------------------------------------
+Average Response Time: 0.0770391775650962 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (4,9) ---------------------------------------------------------
+Average Response Time: 0.06809605994248713 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (4,10) ---------------------------------------------------------
+Average Response Time: 0.06440320964374059 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (4,11) ---------------------------------------------------------
+Average Response Time: 0.05719535891844696 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (4,12) ---------------------------------------------------------
+Average Response Time: 0.14689625897071426 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (4,13) ---------------------------------------------------------
+Average Response Time: 0.16156564869492135 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (4,14) ---------------------------------------------------------
+Average Response Time: 0.0764486850865316 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (4,15) ---------------------------------------------------------
+Average Response Time: 0.10472445455871762 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (4,16) ---------------------------------------------------------
+Average Response Time: 0.1551891466175414 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (4,17) ---------------------------------------------------------
+Average Response Time: 0.07171616710519507 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (4,18) ---------------------------------------------------------
+Average Response Time: 0.2782959616944176 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (4,19) ---------------------------------------------------------
+Average Response Time: 0.14277033936622502 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (4,20) ---------------------------------------------------------
+Average Response Time: 0.13438247196801706 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (4,21) ---------------------------------------------------------
+Average Response Time: 0.1294928801092828 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (4,22) ---------------------------------------------------------
+Average Response Time: 0.12783623097708807 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (4,23) ---------------------------------------------------------
+Average Response Time: 0.2954749208597222 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (4,24) ---------------------------------------------------------
+Average Response Time: 0.09233943520968903 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (4,25) ---------------------------------------------------------
+Average Response Time: 0.12409717663284979 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (4,26) ---------------------------------------------------------
+Average Response Time: 0.11976772187258647 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (4,27) ---------------------------------------------------------
+Average Response Time: 0.202875987044412 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (4,28) ---------------------------------------------------------
+Average Response Time: 0.1402988369213815 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (4,29) ---------------------------------------------------------
+Average Response Time: 0.17328356477189394 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (5,5) ---------------------------------------------------------
+Average Response Time: 0.08824281881712684 msgs/s
+Average Throughput (messages sent in 1 second): 0.3156286205115954 msgs/s
+Average Utilization: 3.1562862051159537 %
+------------------------------------------------ CHANNEL (5,6) ---------------------------------------------------------
+Average Response Time: 0.030468443407773216 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (5,7) ---------------------------------------------------------
+Average Response Time: 0.15138116383246764 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (5,8) ---------------------------------------------------------
+Average Response Time: 0.128876714975756 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (5,9) ---------------------------------------------------------
+Average Response Time: 0.13319670955049057 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (5,10) ---------------------------------------------------------
+Average Response Time: 0.05308876789850131 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (5,11) ---------------------------------------------------------
+Average Response Time: 0.06433347688319302 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (5,12) ---------------------------------------------------------
+Average Response Time: 0.08999553028066605 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (5,13) ---------------------------------------------------------
+Average Response Time: 0.0521982705289329 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (5,14) ---------------------------------------------------------
+Average Response Time: 0.06613510790868414 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (5,15) ---------------------------------------------------------
+Average Response Time: 0.08115412011983643 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (5,16) ---------------------------------------------------------
+Average Response Time: 0.059670027018596146 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (5,17) ---------------------------------------------------------
+Average Response Time: 0.0961745170162851 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (5,18) ---------------------------------------------------------
+Average Response Time: 0.0876836152979627 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (5,19) ---------------------------------------------------------
+Average Response Time: 0.13920345923525873 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (5,20) ---------------------------------------------------------
+Average Response Time: 0.08475283184795394 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (5,21) ---------------------------------------------------------
+Average Response Time: 0.15884514915182185 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (5,22) ---------------------------------------------------------
+Average Response Time: 0.05016292836886041 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (5,23) ---------------------------------------------------------
+Average Response Time: 0.15143229026655294 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (5,24) ---------------------------------------------------------
+Average Response Time: 0.09904960714438499 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (5,25) ---------------------------------------------------------
+Average Response Time: 0.04162329899733608 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (5,26) ---------------------------------------------------------
+Average Response Time: 0.32316970442449033 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (5,27) ---------------------------------------------------------
+Average Response Time: 0.057816299481455544 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (5,28) ---------------------------------------------------------
+Average Response Time: 0.10133926083397347 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (5,29) ---------------------------------------------------------
+Average Response Time: 0.07512983842931742 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (6,6) ---------------------------------------------------------
+Average Response Time: 0.05909426774162241 msgs/s
+Average Throughput (messages sent in 1 second): 0.3986887838041205 msgs/s
+Average Utilization: 3.986887838041205 %
+------------------------------------------------ CHANNEL (6,7) ---------------------------------------------------------
+Average Response Time: 0.042402370406124004 msgs/s
+Average Throughput (messages sent in 1 second): 0.7475414696327259 msgs/s
+Average Utilization: 7.47541469632726 %
+------------------------------------------------ CHANNEL (6,8) ---------------------------------------------------------
+Average Response Time: 0.05404936564595911 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (6,9) ---------------------------------------------------------
+Average Response Time: 0.0870789691320251 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (6,10) ---------------------------------------------------------
+Average Response Time: 0.04680747953279249 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (6,11) ---------------------------------------------------------
+Average Response Time: 0.0706824267933507 msgs/s
+Average Throughput (messages sent in 1 second): 0.7724595186204835 msgs/s
+Average Utilization: 7.724595186204835 %
+------------------------------------------------ CHANNEL (6,12) ---------------------------------------------------------
+Average Response Time: 0.049456341487740585 msgs/s
+Average Throughput (messages sent in 1 second): 0.7641535022912309 msgs/s
+Average Utilization: 7.6415350229123105 %
+------------------------------------------------ CHANNEL (6,13) ---------------------------------------------------------
+Average Response Time: 0.0961736528998022 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (6,14) ---------------------------------------------------------
+Average Response Time: 0.14324484313986546 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (6,15) ---------------------------------------------------------
+Average Response Time: 0.1080176642588878 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (6,16) ---------------------------------------------------------
+Average Response Time: 0.06397941597351646 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (6,17) ---------------------------------------------------------
+Average Response Time: 0.08006930481578903 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (6,18) ---------------------------------------------------------
+Average Response Time: 0.2574220342278164 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (6,19) ---------------------------------------------------------
+Average Response Time: 0.11405211050885895 msgs/s
+Average Throughput (messages sent in 1 second): 0.7226234206449684 msgs/s
+Average Utilization: 7.226234206449685 %
+------------------------------------------------ CHANNEL (6,20) ---------------------------------------------------------
+Average Response Time: 0.07047446454930963 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (6,21) ---------------------------------------------------------
+Average Response Time: 0.09727802476404052 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (6,22) ---------------------------------------------------------
+Average Response Time: 0.15586654588140958 msgs/s
+Average Throughput (messages sent in 1 second): 0.7475414696327259 msgs/s
+Average Utilization: 7.47541469632726 %
+------------------------------------------------ CHANNEL (6,23) ---------------------------------------------------------
+Average Response Time: 0.1481190962292534 msgs/s
+Average Throughput (messages sent in 1 second): 0.7641535022912309 msgs/s
+Average Utilization: 7.6415350229123105 %
+------------------------------------------------ CHANNEL (6,24) ---------------------------------------------------------
+Average Response Time: 0.06711872519089536 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (6,25) ---------------------------------------------------------
+Average Response Time: 0.0812991505852075 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (6,26) ---------------------------------------------------------
+Average Response Time: 0.06558585356825158 msgs/s
+Average Throughput (messages sent in 1 second): 0.7060113879864633 msgs/s
+Average Utilization: 7.060113879864634 %
+------------------------------------------------ CHANNEL (6,27) ---------------------------------------------------------
+Average Response Time: 0.09569202210325758 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (6,28) ---------------------------------------------------------
+Average Response Time: 0.05362717724535217 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (6,29) ---------------------------------------------------------
+Average Response Time: 0.09921720983479636 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (7,7) ---------------------------------------------------------
+Average Response Time: 0.144061091007324 msgs/s
+Average Throughput (messages sent in 1 second): 0.3488526858286054 msgs/s
+Average Utilization: 3.488526858286054 %
+------------------------------------------------ CHANNEL (7,8) ---------------------------------------------------------
+Average Response Time: 0.06028094604704755 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (7,9) ---------------------------------------------------------
+Average Response Time: 0.0867833856128733 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (7,10) ---------------------------------------------------------
+Average Response Time: 0.22049025835919295 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (7,11) ---------------------------------------------------------
+Average Response Time: 0.07581800225053545 msgs/s
+Average Throughput (messages sent in 1 second): 0.7226234206449684 msgs/s
+Average Utilization: 7.226234206449685 %
+------------------------------------------------ CHANNEL (7,12) ---------------------------------------------------------
+Average Response Time: 0.07018672811686047 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (7,13) ---------------------------------------------------------
+Average Response Time: 0.09063681418908269 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (7,14) ---------------------------------------------------------
+Average Response Time: 0.0725990921142795 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (7,15) ---------------------------------------------------------
+Average Response Time: 0.07386429357008858 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (7,16) ---------------------------------------------------------
+Average Response Time: 0.0627274713098704 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (7,17) ---------------------------------------------------------
+Average Response Time: 0.23254659491888896 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (7,18) ---------------------------------------------------------
+Average Response Time: 0.12190017216313351 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (7,19) ---------------------------------------------------------
+Average Response Time: 0.08649091864794417 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (7,20) ---------------------------------------------------------
+Average Response Time: 0.05973120685240593 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (7,21) ---------------------------------------------------------
+Average Response Time: 0.07865446963988165 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (7,22) ---------------------------------------------------------
+Average Response Time: 0.09685910648782081 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (7,23) ---------------------------------------------------------
+Average Response Time: 0.14142642321008442 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (7,24) ---------------------------------------------------------
+Average Response Time: 0.13273473759021248 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (7,25) ---------------------------------------------------------
+Average Response Time: 0.1271275898001401 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (7,26) ---------------------------------------------------------
+Average Response Time: 0.06696872951783452 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (7,27) ---------------------------------------------------------
+Average Response Time: 0.12135575238045757 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (7,28) ---------------------------------------------------------
+Average Response Time: 0.08744257133771086 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (7,29) ---------------------------------------------------------
+Average Response Time: 0.06842010495049088 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (8,8) ---------------------------------------------------------
+Average Response Time: 0.0854705459034564 msgs/s
+Average Throughput (messages sent in 1 second): 0.2990165878530904 msgs/s
+Average Utilization: 2.9901658785309038 %
+------------------------------------------------ CHANNEL (8,9) ---------------------------------------------------------
+Average Response Time: 0.06591048433516691 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (8,10) ---------------------------------------------------------
+Average Response Time: 0.047174919526345366 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (8,11) ---------------------------------------------------------
+Average Response Time: 0.02703083718085707 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (8,12) ---------------------------------------------------------
+Average Response Time: 0.2383371496423783 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (8,13) ---------------------------------------------------------
+Average Response Time: 0.0934680227395905 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (8,14) ---------------------------------------------------------
+Average Response Time: 0.17066138389747637 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (8,15) ---------------------------------------------------------
+Average Response Time: 0.0760742001305539 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (8,16) ---------------------------------------------------------
+Average Response Time: 0.09083545534838264 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (8,17) ---------------------------------------------------------
+Average Response Time: 0.037400991069503384 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (8,18) ---------------------------------------------------------
+Average Response Time: 0.2100130128018009 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (8,19) ---------------------------------------------------------
+Average Response Time: 0.24830604657229008 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (8,20) ---------------------------------------------------------
+Average Response Time: 0.07056060136620725 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (8,21) ---------------------------------------------------------
+Average Response Time: 0.1122473411492793 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (8,22) ---------------------------------------------------------
+Average Response Time: 0.08454656978528763 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (8,23) ---------------------------------------------------------
+Average Response Time: 0.13026441598058414 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (8,24) ---------------------------------------------------------
+Average Response Time: 0.10615252106855592 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (8,25) ---------------------------------------------------------
+Average Response Time: 0.1031594127062927 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (8,26) ---------------------------------------------------------
+Average Response Time: 0.12493052355864842 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (8,27) ---------------------------------------------------------
+Average Response Time: 0.08827865890997824 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (8,28) ---------------------------------------------------------
+Average Response Time: 0.09782256604048166 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (8,29) ---------------------------------------------------------
+Average Response Time: 0.09198474900631073 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (9,9) ---------------------------------------------------------
+Average Response Time: 0.04774536704569654 msgs/s
+Average Throughput (messages sent in 1 second): 0.2657925225360803 msgs/s
+Average Utilization: 2.6579252253608034 %
+------------------------------------------------ CHANNEL (9,10) ---------------------------------------------------------
+Average Response Time: 0.05713236470616958 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (9,11) ---------------------------------------------------------
+Average Response Time: 0.0782217854626719 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (9,12) ---------------------------------------------------------
+Average Response Time: 0.04290237662805302 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (9,13) ---------------------------------------------------------
+Average Response Time: 0.05755033908364282 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (9,14) ---------------------------------------------------------
+Average Response Time: 0.058569795894108254 msgs/s
+Average Throughput (messages sent in 1 second): 0.45683089810888805 msgs/s
+Average Utilization: 4.568308981088881 %
+------------------------------------------------ CHANNEL (9,15) ---------------------------------------------------------
+Average Response Time: 0.07461886676353527 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (9,16) ---------------------------------------------------------
+Average Response Time: 0.06560450189993733 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (9,17) ---------------------------------------------------------
+Average Response Time: 0.0959988978355365 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (9,18) ---------------------------------------------------------
+Average Response Time: 0.04800076093873956 msgs/s
+Average Throughput (messages sent in 1 second): 0.4734429307673931 msgs/s
+Average Utilization: 4.734429307673931 %
+------------------------------------------------ CHANNEL (9,19) ---------------------------------------------------------
+Average Response Time: 0.05609640407783532 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (9,20) ---------------------------------------------------------
+Average Response Time: 0.06686116386252691 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (9,21) ---------------------------------------------------------
+Average Response Time: 0.04940029178084972 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (9,22) ---------------------------------------------------------
+Average Response Time: 0.5184213252821525 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (9,23) ---------------------------------------------------------
+Average Response Time: 0.05113083028016021 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (9,24) ---------------------------------------------------------
+Average Response Time: 0.05493852776996546 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (9,25) ---------------------------------------------------------
+Average Response Time: 0.09717407019318008 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (9,26) ---------------------------------------------------------
+Average Response Time: 0.12832351985282345 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (9,27) ---------------------------------------------------------
+Average Response Time: 0.058670061391907426 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (9,28) ---------------------------------------------------------
+Average Response Time: 0.0968720473755316 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (9,29) ---------------------------------------------------------
+Average Response Time: 0.07224546181050734 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (10,10) ---------------------------------------------------------
+Average Response Time: 0.3307889910526782 msgs/s
+Average Throughput (messages sent in 1 second): 0.22426244088981778 msgs/s
+Average Utilization: 2.2426244088981777 %
+------------------------------------------------ CHANNEL (10,11) ---------------------------------------------------------
+Average Response Time: 0.12290210492282437 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (10,12) ---------------------------------------------------------
+Average Response Time: 0.1082350507173098 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (10,13) ---------------------------------------------------------
+Average Response Time: 0.13258093272690863 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (10,14) ---------------------------------------------------------
+Average Response Time: 0.07587589859120306 msgs/s
+Average Throughput (messages sent in 1 second): 0.423606832791878 msgs/s
+Average Utilization: 4.2360683279187805 %
+------------------------------------------------ CHANNEL (10,15) ---------------------------------------------------------
+Average Response Time: 0.04142903524573566 msgs/s
+Average Throughput (messages sent in 1 second): 0.45683089810888805 msgs/s
+Average Utilization: 4.568308981088881 %
+------------------------------------------------ CHANNEL (10,16) ---------------------------------------------------------
+Average Response Time: 0.2200948272546083 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (10,17) ---------------------------------------------------------
+Average Response Time: 0.036718043914308836 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (10,18) ---------------------------------------------------------
+Average Response Time: 0.1081897396271588 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (10,19) ---------------------------------------------------------
+Average Response Time: 0.28097458242867646 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (10,20) ---------------------------------------------------------
+Average Response Time: 0.09271332741394768 msgs/s
+Average Throughput (messages sent in 1 second): 0.4734429307673931 msgs/s
+Average Utilization: 4.734429307673931 %
+------------------------------------------------ CHANNEL (10,21) ---------------------------------------------------------
+Average Response Time: 0.4218550593132402 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (10,22) ---------------------------------------------------------
+Average Response Time: 0.12130372541858564 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (10,23) ---------------------------------------------------------
+Average Response Time: 0.12884215229967583 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (10,24) ---------------------------------------------------------
+Average Response Time: 0.07494721987254115 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (10,25) ---------------------------------------------------------
+Average Response Time: 0.13092726237202634 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (10,26) ---------------------------------------------------------
+Average Response Time: 0.11209654034167141 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (10,27) ---------------------------------------------------------
+Average Response Time: 0.04181827753157744 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (10,28) ---------------------------------------------------------
+Average Response Time: 0.20191755782608597 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (10,29) ---------------------------------------------------------
+Average Response Time: 0.15348449376388573 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (11,11) ---------------------------------------------------------
+Average Response Time: 0.13177220516417812 msgs/s
+Average Throughput (messages sent in 1 second): 0.37377073481636297 msgs/s
+Average Utilization: 3.73770734816363 %
+------------------------------------------------ CHANNEL (11,12) ---------------------------------------------------------
+Average Response Time: 0.07350258706404172 msgs/s
+Average Throughput (messages sent in 1 second): 0.7392354533034734 msgs/s
+Average Utilization: 7.392354533034734 %
+------------------------------------------------ CHANNEL (11,13) ---------------------------------------------------------
+Average Response Time: 0.02768144885707436 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (11,14) ---------------------------------------------------------
+Average Response Time: 0.05497649726609159 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (11,15) ---------------------------------------------------------
+Average Response Time: 0.18432608305092746 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (11,16) ---------------------------------------------------------
+Average Response Time: 0.043285392349971405 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (11,17) ---------------------------------------------------------
+Average Response Time: 0.14798037830316474 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (11,18) ---------------------------------------------------------
+Average Response Time: 0.11074762104241694 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (11,19) ---------------------------------------------------------
+Average Response Time: 0.09058669958306721 msgs/s
+Average Throughput (messages sent in 1 second): 0.6977053716572108 msgs/s
+Average Utilization: 6.977053716572108 %
+------------------------------------------------ CHANNEL (11,20) ---------------------------------------------------------
+Average Response Time: 0.14469530790312626 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (11,21) ---------------------------------------------------------
+Average Response Time: 0.1267936608687669 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (11,22) ---------------------------------------------------------
+Average Response Time: 0.11201211442967329 msgs/s
+Average Throughput (messages sent in 1 second): 0.7226234206449684 msgs/s
+Average Utilization: 7.226234206449685 %
+------------------------------------------------ CHANNEL (11,23) ---------------------------------------------------------
+Average Response Time: 0.03415075830800894 msgs/s
+Average Throughput (messages sent in 1 second): 0.7392354533034734 msgs/s
+Average Utilization: 7.392354533034734 %
+------------------------------------------------ CHANNEL (11,24) ---------------------------------------------------------
+Average Response Time: 0.09277505689413314 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (11,25) ---------------------------------------------------------
+Average Response Time: 0.0387757848728983 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (11,26) ---------------------------------------------------------
+Average Response Time: 0.1287539976936073 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (11,27) ---------------------------------------------------------
+Average Response Time: 0.13675931133107253 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (11,28) ---------------------------------------------------------
+Average Response Time: 0.04256270917406102 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (11,29) ---------------------------------------------------------
+Average Response Time: 0.02875487715512512 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (12,12) ---------------------------------------------------------
+Average Response Time: 0.1168755716947045 msgs/s
+Average Throughput (messages sent in 1 second): 0.36546471848711043 msgs/s
+Average Utilization: 3.6546471848711044 %
+------------------------------------------------ CHANNEL (12,13) ---------------------------------------------------------
+Average Response Time: 0.05010174365130472 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (12,14) ---------------------------------------------------------
+Average Response Time: 0.07381281762846872 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (12,15) ---------------------------------------------------------
+Average Response Time: 0.060101319347809996 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (12,16) ---------------------------------------------------------
+Average Response Time: 0.1565096603376528 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (12,17) ---------------------------------------------------------
+Average Response Time: 0.08659976760664412 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (12,18) ---------------------------------------------------------
+Average Response Time: 0.2489214854800914 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (12,19) ---------------------------------------------------------
+Average Response Time: 0.07988496457179572 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (12,20) ---------------------------------------------------------
+Average Response Time: 0.15761416809729423 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (12,21) ---------------------------------------------------------
+Average Response Time: 0.07955914309855322 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (12,22) ---------------------------------------------------------
+Average Response Time: 0.16782186090313062 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (12,23) ---------------------------------------------------------
+Average Response Time: 0.1059710010271048 msgs/s
+Average Throughput (messages sent in 1 second): 0.7309294369742209 msgs/s
+Average Utilization: 7.309294369742209 %
+------------------------------------------------ CHANNEL (12,24) ---------------------------------------------------------
+Average Response Time: 0.12124596340983092 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (12,25) ---------------------------------------------------------
+Average Response Time: 0.09799885525794055 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (12,26) ---------------------------------------------------------
+Average Response Time: 0.05061676696048933 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (12,27) ---------------------------------------------------------
+Average Response Time: 0.07113287296722959 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (12,28) ---------------------------------------------------------
+Average Response Time: 0.06242193002748152 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (12,29) ---------------------------------------------------------
+Average Response Time: 0.06489503100280213 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (13,13) ---------------------------------------------------------
+Average Response Time: 0.14287644027106694 msgs/s
+Average Throughput (messages sent in 1 second): 0.20765040823131276 msgs/s
+Average Utilization: 2.0765040823131278 %
+------------------------------------------------ CHANNEL (13,14) ---------------------------------------------------------
+Average Response Time: 0.16270692603532366 msgs/s
+Average Throughput (messages sent in 1 second): 0.40699480013337297 msgs/s
+Average Utilization: 4.06994800133373 %
+------------------------------------------------ CHANNEL (13,15) ---------------------------------------------------------
+Average Response Time: 0.07545789789059634 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (13,16) ---------------------------------------------------------
+Average Response Time: 0.17590145942425206 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (13,17) ---------------------------------------------------------
+Average Response Time: 0.16646451303625603 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (13,18) ---------------------------------------------------------
+Average Response Time: 0.15154230984996941 msgs/s
+Average Throughput (messages sent in 1 second): 0.4153008164626255 msgs/s
+Average Utilization: 4.1530081646262555 %
+------------------------------------------------ CHANNEL (13,19) ---------------------------------------------------------
+Average Response Time: 0.032723304149087265 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (13,20) ---------------------------------------------------------
+Average Response Time: 0.056665151468799135 msgs/s
+Average Throughput (messages sent in 1 second): 0.45683089810888805 msgs/s
+Average Utilization: 4.568308981088881 %
+------------------------------------------------ CHANNEL (13,21) ---------------------------------------------------------
+Average Response Time: 0.2968939293019836 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (13,22) ---------------------------------------------------------
+Average Response Time: 0.09652100849170633 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (13,23) ---------------------------------------------------------
+Average Response Time: 0.059540414171797354 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (13,24) ---------------------------------------------------------
+Average Response Time: 0.13480068159534664 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (13,25) ---------------------------------------------------------
+Average Response Time: 0.09256880169206338 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (13,26) ---------------------------------------------------------
+Average Response Time: 0.047561806437791225 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (13,27) ---------------------------------------------------------
+Average Response Time: 0.10192811059712564 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (13,28) ---------------------------------------------------------
+Average Response Time: 0.06361542389120967 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (13,29) ---------------------------------------------------------
+Average Response Time: 0.06529297997245499 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (14,14) ---------------------------------------------------------
+Average Response Time: 0.1993391013162693 msgs/s
+Average Throughput (messages sent in 1 second): 0.19934439190206024 msgs/s
+Average Utilization: 1.9934439190206026 %
+------------------------------------------------ CHANNEL (14,15) ---------------------------------------------------------
+Average Response Time: 0.07533278353975478 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (14,16) ---------------------------------------------------------
+Average Response Time: 0.1574970672313441 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (14,17) ---------------------------------------------------------
+Average Response Time: 0.094400141320703 msgs/s
+Average Throughput (messages sent in 1 second): 0.440218865450383 msgs/s
+Average Utilization: 4.4021886545038305 %
+------------------------------------------------ CHANNEL (14,18) ---------------------------------------------------------
+Average Response Time: 0.11518876622906503 msgs/s
+Average Throughput (messages sent in 1 second): 0.40699480013337297 msgs/s
+Average Utilization: 4.06994800133373 %
+------------------------------------------------ CHANNEL (14,19) ---------------------------------------------------------
+Average Response Time: 0.06825316490278202 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (14,20) ---------------------------------------------------------
+Average Response Time: 0.05723274129532827 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (14,21) ---------------------------------------------------------
+Average Response Time: 0.060492318313526895 msgs/s
+Average Throughput (messages sent in 1 second): 0.440218865450383 msgs/s
+Average Utilization: 4.4021886545038305 %
+------------------------------------------------ CHANNEL (14,22) ---------------------------------------------------------
+Average Response Time: 0.10308103908234523 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (14,23) ---------------------------------------------------------
+Average Response Time: 0.16197986519685603 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (14,24) ---------------------------------------------------------
+Average Response Time: 0.11812922939886054 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (14,25) ---------------------------------------------------------
+Average Response Time: 0.07467946528650185 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (14,26) ---------------------------------------------------------
+Average Response Time: 0.0321364312166378 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (14,27) ---------------------------------------------------------
+Average Response Time: 0.09804768044120837 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (14,28) ---------------------------------------------------------
+Average Response Time: 0.23872595101190297 msgs/s
+Average Throughput (messages sent in 1 second): 0.423606832791878 msgs/s
+Average Utilization: 4.2360683279187805 %
+------------------------------------------------ CHANNEL (14,29) ---------------------------------------------------------
+Average Response Time: 0.11002052196292646 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (15,15) ---------------------------------------------------------
+Average Response Time: 0.0901408560203798 msgs/s
+Average Throughput (messages sent in 1 second): 0.22426244088981778 msgs/s
+Average Utilization: 2.2426244088981777 %
+------------------------------------------------ CHANNEL (15,16) ---------------------------------------------------------
+Average Response Time: 0.06668090307720784 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (15,17) ---------------------------------------------------------
+Average Response Time: 0.19222648443106202 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (15,18) ---------------------------------------------------------
+Average Response Time: 0.12717395030434409 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (15,19) ---------------------------------------------------------
+Average Response Time: 0.07265855837754753 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (15,20) ---------------------------------------------------------
+Average Response Time: 0.1327208449538143 msgs/s
+Average Throughput (messages sent in 1 second): 0.4734429307673931 msgs/s
+Average Utilization: 4.734429307673931 %
+------------------------------------------------ CHANNEL (15,21) ---------------------------------------------------------
+Average Response Time: 0.07481205623821047 msgs/s
+Average Throughput (messages sent in 1 second): 0.4734429307673931 msgs/s
+Average Utilization: 4.734429307673931 %
+------------------------------------------------ CHANNEL (15,22) ---------------------------------------------------------
+Average Response Time: 0.04711813270609473 msgs/s
+Average Throughput (messages sent in 1 second): 0.5814211430476757 msgs/s
+Average Utilization: 5.814211430476757 %
+------------------------------------------------ CHANNEL (15,23) ---------------------------------------------------------
+Average Response Time: 0.05937053863528753 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (15,24) ---------------------------------------------------------
+Average Response Time: 0.11353483961567423 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (15,25) ---------------------------------------------------------
+Average Response Time: 0.18052749364147333 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (15,26) ---------------------------------------------------------
+Average Response Time: 0.20660419591973955 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (15,27) ---------------------------------------------------------
+Average Response Time: 0.15170956860219426 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (15,28) ---------------------------------------------------------
+Average Response Time: 0.16505035742780536 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (15,29) ---------------------------------------------------------
+Average Response Time: 0.2311151267202922 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (16,16) ---------------------------------------------------------
+Average Response Time: 0.07157799734838938 msgs/s
+Average Throughput (messages sent in 1 second): 0.3156286205115954 msgs/s
+Average Utilization: 3.1562862051159537 %
+------------------------------------------------ CHANNEL (16,17) ---------------------------------------------------------
+Average Response Time: 0.07284275628625915 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (16,18) ---------------------------------------------------------
+Average Response Time: 0.04637726366693293 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (16,19) ---------------------------------------------------------
+Average Response Time: 0.13652089936337963 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (16,20) ---------------------------------------------------------
+Average Response Time: 0.09863180391346911 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (16,21) ---------------------------------------------------------
+Average Response Time: 0.2849773435372315 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (16,22) ---------------------------------------------------------
+Average Response Time: 0.10388422939053307 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (16,23) ---------------------------------------------------------
+Average Response Time: 0.04879526703776586 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (16,24) ---------------------------------------------------------
+Average Response Time: 0.17800165059821121 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (16,25) ---------------------------------------------------------
+Average Response Time: 0.20961708205787788 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (16,26) ---------------------------------------------------------
+Average Response Time: 0.09303376092144425 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (16,27) ---------------------------------------------------------
+Average Response Time: 0.088027058592238 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (16,28) ---------------------------------------------------------
+Average Response Time: 0.11274411274501513 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (16,29) ---------------------------------------------------------
+Average Response Time: 0.0702722745619167 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (17,17) ---------------------------------------------------------
+Average Response Time: 0.14563058424711084 msgs/s
+Average Throughput (messages sent in 1 second): 0.24087447354832278 msgs/s
+Average Utilization: 2.408744735483228 %
+------------------------------------------------ CHANNEL (17,18) ---------------------------------------------------------
+Average Response Time: 0.1380145161258021 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (17,19) ---------------------------------------------------------
+Average Response Time: 0.21693710816060024 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (17,20) ---------------------------------------------------------
+Average Response Time: 0.08559871237631636 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (17,21) ---------------------------------------------------------
+Average Response Time: 0.10675505924337714 msgs/s
+Average Throughput (messages sent in 1 second): 0.48174894709664556 msgs/s
+Average Utilization: 4.817489470966456 %
+------------------------------------------------ CHANNEL (17,22) ---------------------------------------------------------
+Average Response Time: 0.20579838910638995 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (17,23) ---------------------------------------------------------
+Average Response Time: 0.09143525354682211 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (17,24) ---------------------------------------------------------
+Average Response Time: 0.12425308145109622 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (17,25) ---------------------------------------------------------
+Average Response Time: 0.08931045511719363 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (17,26) ---------------------------------------------------------
+Average Response Time: 0.08476942586634532 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (17,27) ---------------------------------------------------------
+Average Response Time: 0.11822287163469208 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (17,28) ---------------------------------------------------------
+Average Response Time: 0.06061374529039788 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (17,29) ---------------------------------------------------------
+Average Response Time: 0.11638866390932041 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (18,18) ---------------------------------------------------------
+Average Response Time: 0.053618961771746854 msgs/s
+Average Throughput (messages sent in 1 second): 0.20765040823131276 msgs/s
+Average Utilization: 2.0765040823131278 %
+------------------------------------------------ CHANNEL (18,19) ---------------------------------------------------------
+Average Response Time: 0.11214943191594531 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (18,20) ---------------------------------------------------------
+Average Response Time: 0.06740064339207778 msgs/s
+Average Throughput (messages sent in 1 second): 0.45683089810888805 msgs/s
+Average Utilization: 4.568308981088881 %
+------------------------------------------------ CHANNEL (18,21) ---------------------------------------------------------
+Average Response Time: 0.08981171880879382 msgs/s
+Average Throughput (messages sent in 1 second): 0.44852488177963556 msgs/s
+Average Utilization: 4.485248817796355 %
+------------------------------------------------ CHANNEL (18,22) ---------------------------------------------------------
+Average Response Time: 0.2387867930712842 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (18,23) ---------------------------------------------------------
+Average Response Time: 0.09122626514333279 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (18,24) ---------------------------------------------------------
+Average Response Time: 0.1129868840146673 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (18,25) ---------------------------------------------------------
+Average Response Time: 0.0758038917874747 msgs/s
+Average Throughput (messages sent in 1 second): 0.5066669960844031 msgs/s
+Average Utilization: 5.066669960844031 %
+------------------------------------------------ CHANNEL (18,26) ---------------------------------------------------------
+Average Response Time: 0.08584539837181028 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (18,27) ---------------------------------------------------------
+Average Response Time: 0.16204481620561528 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (18,28) ---------------------------------------------------------
+Average Response Time: 0.03758255168471679 msgs/s
+Average Throughput (messages sent in 1 second): 0.43191284912113054 msgs/s
+Average Utilization: 4.3191284912113055 %
+------------------------------------------------ CHANNEL (18,29) ---------------------------------------------------------
+Average Response Time: 0.09767055020433836 msgs/s
+Average Throughput (messages sent in 1 second): 0.4983609797551506 msgs/s
+Average Utilization: 4.983609797551506 %
+------------------------------------------------ CHANNEL (19,19) ---------------------------------------------------------
+Average Response Time: 0.05342764203071378 msgs/s
+Average Throughput (messages sent in 1 second): 0.3239346368408479 msgs/s
+Average Utilization: 3.239346368408479 %
+------------------------------------------------ CHANNEL (19,20) ---------------------------------------------------------
+Average Response Time: 0.08567911278352781 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (19,21) ---------------------------------------------------------
+Average Response Time: 0.08148873046852127 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (19,22) ---------------------------------------------------------
+Average Response Time: 0.11924943820038715 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (19,23) ---------------------------------------------------------
+Average Response Time: 0.12732937382174864 msgs/s
+Average Throughput (messages sent in 1 second): 0.6893993553279584 msgs/s
+Average Utilization: 6.893993553279584 %
+------------------------------------------------ CHANNEL (19,24) ---------------------------------------------------------
+Average Response Time: 0.08860419391305538 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (19,25) ---------------------------------------------------------
+Average Response Time: 0.06611581656646823 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (19,26) ---------------------------------------------------------
+Average Response Time: 0.1506556236047816 msgs/s
+Average Throughput (messages sent in 1 second): 0.6312572410231908 msgs/s
+Average Utilization: 6.312572410231907 %
+------------------------------------------------ CHANNEL (19,27) ---------------------------------------------------------
+Average Response Time: 0.10392446845723592 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (19,28) ---------------------------------------------------------
+Average Response Time: 0.2809447926762893 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (19,29) ---------------------------------------------------------
+Average Response Time: 0.04752676912074698 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (20,20) ---------------------------------------------------------
+Average Response Time: 0.10890596432713506 msgs/s
+Average Throughput (messages sent in 1 second): 0.2491804898775753 msgs/s
+Average Utilization: 2.491804898775753 %
+------------------------------------------------ CHANNEL (20,21) ---------------------------------------------------------
+Average Response Time: 0.06995000590388609 msgs/s
+Average Throughput (messages sent in 1 second): 0.4900549634258981 msgs/s
+Average Utilization: 4.900549634258981 %
+------------------------------------------------ CHANNEL (20,22) ---------------------------------------------------------
+Average Response Time: 0.07478154773546862 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (20,23) ---------------------------------------------------------
+Average Response Time: 0.15886084872345366 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (20,24) ---------------------------------------------------------
+Average Response Time: 0.08388680624951855 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (20,25) ---------------------------------------------------------
+Average Response Time: 0.09881828453504884 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (20,26) ---------------------------------------------------------
+Average Response Time: 0.11058854754048081 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (20,27) ---------------------------------------------------------
+Average Response Time: 0.0775562254005372 msgs/s
+Average Throughput (messages sent in 1 second): 0.5648091103891707 msgs/s
+Average Utilization: 5.648091103891708 %
+------------------------------------------------ CHANNEL (20,28) ---------------------------------------------------------
+Average Response Time: 0.09314301889005863 msgs/s
+Average Throughput (messages sent in 1 second): 0.4734429307673931 msgs/s
+Average Utilization: 4.734429307673931 %
+------------------------------------------------ CHANNEL (20,29) ---------------------------------------------------------
+Average Response Time: 0.09910371180798179 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (21,21) ---------------------------------------------------------
+Average Response Time: 0.0845958914460212 msgs/s
+Average Throughput (messages sent in 1 second): 0.24087447354832278 msgs/s
+Average Utilization: 2.408744735483228 %
+------------------------------------------------ CHANNEL (21,22) ---------------------------------------------------------
+Average Response Time: 0.1266641898791195 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (21,23) ---------------------------------------------------------
+Average Response Time: 0.09381824210978565 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (21,24) ---------------------------------------------------------
+Average Response Time: 0.0571338441640724 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (21,25) ---------------------------------------------------------
+Average Response Time: 0.09593873699301143 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (21,26) ---------------------------------------------------------
+Average Response Time: 0.1569142931394878 msgs/s
+Average Throughput (messages sent in 1 second): 0.5481970777306656 msgs/s
+Average Utilization: 5.481970777306657 %
+------------------------------------------------ CHANNEL (21,27) ---------------------------------------------------------
+Average Response Time: 0.07952145844641961 msgs/s
+Average Throughput (messages sent in 1 second): 0.5565030940599182 msgs/s
+Average Utilization: 5.565030940599182 %
+------------------------------------------------ CHANNEL (21,28) ---------------------------------------------------------
+Average Response Time: 0.0852738171092256 msgs/s
+Average Throughput (messages sent in 1 second): 0.46513691443814054 msgs/s
+Average Utilization: 4.651369144381405 %
+------------------------------------------------ CHANNEL (21,29) ---------------------------------------------------------
+Average Response Time: 0.06819734998325383 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (22,22) ---------------------------------------------------------
+Average Response Time: 0.21133030470641903 msgs/s
+Average Throughput (messages sent in 1 second): 0.3488526858286054 msgs/s
+Average Utilization: 3.488526858286054 %
+------------------------------------------------ CHANNEL (22,23) ---------------------------------------------------------
+Average Response Time: 0.1061570807061756 msgs/s
+Average Throughput (messages sent in 1 second): 0.7143174043157159 msgs/s
+Average Utilization: 7.143174043157159 %
+------------------------------------------------ CHANNEL (22,24) ---------------------------------------------------------
+Average Response Time: 0.26116072949753527 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (22,25) ---------------------------------------------------------
+Average Response Time: 0.1841080861242927 msgs/s
+Average Throughput (messages sent in 1 second): 0.6478692736816958 msgs/s
+Average Utilization: 6.478692736816958 %
+------------------------------------------------ CHANNEL (22,26) ---------------------------------------------------------
+Average Response Time: 0.10088254141495401 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (22,27) ---------------------------------------------------------
+Average Response Time: 0.06742123324550478 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (22,28) ---------------------------------------------------------
+Average Response Time: 0.12101223756733631 msgs/s
+Average Throughput (messages sent in 1 second): 0.5731151267184232 msgs/s
+Average Utilization: 5.731151267184233 %
+------------------------------------------------ CHANNEL (22,29) ---------------------------------------------------------
+Average Response Time: 0.1578885736208795 msgs/s
+Average Throughput (messages sent in 1 second): 0.6395632573524432 msgs/s
+Average Utilization: 6.395632573524433 %
+------------------------------------------------ CHANNEL (23,23) ---------------------------------------------------------
+Average Response Time: 0.13521249016947887 msgs/s
+Average Throughput (messages sent in 1 second): 0.36546471848711043 msgs/s
+Average Utilization: 3.6546471848711044 %
+------------------------------------------------ CHANNEL (23,24) ---------------------------------------------------------
+Average Response Time: 0.055248422640383085 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (23,25) ---------------------------------------------------------
+Average Response Time: 0.12318437661309511 msgs/s
+Average Throughput (messages sent in 1 second): 0.6644813063402008 msgs/s
+Average Utilization: 6.644813063402008 %
+------------------------------------------------ CHANNEL (23,26) ---------------------------------------------------------
+Average Response Time: 0.047202470174220926 msgs/s
+Average Throughput (messages sent in 1 second): 0.6727873226694533 msgs/s
+Average Utilization: 6.727873226694533 %
+------------------------------------------------ CHANNEL (23,27) ---------------------------------------------------------
+Average Response Time: 0.14616880527870751 msgs/s
+Average Throughput (messages sent in 1 second): 0.6810933389987058 msgs/s
+Average Utilization: 6.810933389987059 %
+------------------------------------------------ CHANNEL (23,28) ---------------------------------------------------------
+Average Response Time: 0.169434720371479 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (23,29) ---------------------------------------------------------
+Average Response Time: 0.06710627575289145 msgs/s
+Average Throughput (messages sent in 1 second): 0.6561752900109483 msgs/s
+Average Utilization: 6.561752900109484 %
+------------------------------------------------ CHANNEL (24,24) ---------------------------------------------------------
+Average Response Time: 0.11466761100792025 msgs/s
+Average Throughput (messages sent in 1 second): 0.2990165878530904 msgs/s
+Average Utilization: 2.9901658785309038 %
+------------------------------------------------ CHANNEL (24,25) ---------------------------------------------------------
+Average Response Time: 0.0717466596930752 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (24,26) ---------------------------------------------------------
+Average Response Time: 0.13065099824031207 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (24,27) ---------------------------------------------------------
+Average Response Time: 0.08407868311809519 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (24,28) ---------------------------------------------------------
+Average Response Time: 0.07895997503590296 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (24,29) ---------------------------------------------------------
+Average Response Time: 0.10786307844915577 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (25,25) ---------------------------------------------------------
+Average Response Time: 0.046664785047522694 msgs/s
+Average Throughput (messages sent in 1 second): 0.2990165878530904 msgs/s
+Average Utilization: 2.9901658785309038 %
+------------------------------------------------ CHANNEL (25,26) ---------------------------------------------------------
+Average Response Time: 0.07578410821727369 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (25,27) ---------------------------------------------------------
+Average Response Time: 0.11250849919763664 msgs/s
+Average Throughput (messages sent in 1 second): 0.6146452083646857 msgs/s
+Average Utilization: 6.1464520836468575 %
+------------------------------------------------ CHANNEL (25,28) ---------------------------------------------------------
+Average Response Time: 0.08212491514511241 msgs/s
+Average Throughput (messages sent in 1 second): 0.5232790287429081 msgs/s
+Average Utilization: 5.232790287429082 %
+------------------------------------------------ CHANNEL (25,29) ---------------------------------------------------------
+Average Response Time: 0.07337591727308608 msgs/s
+Average Throughput (messages sent in 1 second): 0.5897271593769282 msgs/s
+Average Utilization: 5.897271593769283 %
+------------------------------------------------ CHANNEL (26,26) ---------------------------------------------------------
+Average Response Time: 0.10087825134291241 msgs/s
+Average Throughput (messages sent in 1 second): 0.30732260418234286 msgs/s
+Average Utilization: 3.0732260418234287 %
+------------------------------------------------ CHANNEL (26,27) ---------------------------------------------------------
+Average Response Time: 0.19962916108901738 msgs/s
+Average Throughput (messages sent in 1 second): 0.6229512246939383 msgs/s
+Average Utilization: 6.229512246939383 %
+------------------------------------------------ CHANNEL (26,28) ---------------------------------------------------------
+Average Response Time: 0.06961147910005908 msgs/s
+Average Throughput (messages sent in 1 second): 0.5315850450721606 msgs/s
+Average Utilization: 5.315850450721607 %
+------------------------------------------------ CHANNEL (26,29) ---------------------------------------------------------
+Average Response Time: 0.07242259761650731 msgs/s
+Average Throughput (messages sent in 1 second): 0.5980331757061808 msgs/s
+Average Utilization: 5.9803317570618075 %
+------------------------------------------------ CHANNEL (27,27) ---------------------------------------------------------
+Average Response Time: 0.059595705164383714 msgs/s
+Average Throughput (messages sent in 1 second): 0.3156286205115954 msgs/s
+Average Utilization: 3.1562862051159537 %
+------------------------------------------------ CHANNEL (27,28) ---------------------------------------------------------
+Average Response Time: 0.15800232552751525 msgs/s
+Average Throughput (messages sent in 1 second): 0.5398910614014132 msgs/s
+Average Utilization: 5.398910614014133 %
+------------------------------------------------ CHANNEL (27,29) ---------------------------------------------------------
+Average Response Time: 0.09992093254356463 msgs/s
+Average Throughput (messages sent in 1 second): 0.6063391920354332 msgs/s
+Average Utilization: 6.0633919203543325 %
+------------------------------------------------ CHANNEL (28,28) ---------------------------------------------------------
+Average Response Time: 0.11027080895250663 msgs/s
+Average Throughput (messages sent in 1 second): 0.22426244088981778 msgs/s
+Average Utilization: 2.2426244088981777 %
+------------------------------------------------ CHANNEL (28,29) ---------------------------------------------------------
+Average Response Time: 0.07246214634355738 msgs/s
+Average Throughput (messages sent in 1 second): 0.5149730124136557 msgs/s
+Average Utilization: 5.149730124136557 %
+------------------------------------------------ CHANNEL (29,29) ---------------------------------------------------------
+Average Response Time: 0.31421386931488615 msgs/s
+Average Throughput (messages sent in 1 second): 0.29071057152383784 msgs/s
+Average Utilization: 2.9071057152383784 %
+--------------------------------------------- AGGREGATE STATISTICS -----------------------------------------------------
+Average Total Response Time for a request (considering a generic channel followed by a generic node) is: 0.12454016364957748 s
+Average Throughput for a node: 0.26571350074992206 processed requests/s
+Average Throughput for a channel: 0.37065067639876775 msgs/s
+Average Utilization for a node: 0.033214187593740264 %
+Average Utilization for a channel: 3.7065067639876776 %

@@ -69,6 +69,9 @@ class Node:
             
             udp.udp_send(channel_port, message)
 
+        self.broadcast_requests += 1  # Update Stats
+
+
     def pick_targets(self):
         targets = []
         candidates = list(self.correct)
@@ -112,6 +115,7 @@ class Node:
         print(f"[{round(time.time() - self.start_time,3)}][PROB_DELIVERY] Process {self.id} delivers message {content} with sender {sender_id}")  # Deliver to the application    
         self.eager_probabilistic_deliver(message)
         self.gossip(message)
+        self.broadcast_requests += 1  # Update Stats
 
     def lazy_rb_deliver(self, message):
         self.process_data()
@@ -238,12 +242,8 @@ class Node:
                 # Insert in the message the information about the number of rounds to perform
                 message = f"{self.id}_broadcast_{random.randint(1, 100)}_{time.time()}_{rounds}\n"
                 self.prob_broadcast(message)
-
-                self.broadcast_requests += 1  # Update Stats
             else:
                 self.broadcast(message)
-                self.broadcast_requests += 1  # Update Stats
-
 
     # Method to simulate the processing of a single message accordin to an exponential distribution
     def process_data(self):
